@@ -1,0 +1,77 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: James Martinez
+MRN: 13579246
+DOB: 09/15/1962
+Visit Date: 01/30/2026
+
+CHIEF COMPLAINT:
+New diagnosis of heart failure, unclear etiology
+
+HISTORY OF PRESENT ILLNESS:
+63 y/o M referred to cardiology clinic for evaluation of newly diagnosed heart failure. Patient initially presented to PCP 2 weeks ago with complaints of progressive fatigue and mild dyspnea with moderate exertion over past 3 months. Denies orthopnea or PND. No chest pain. Echo performed last week showed reduced ejection fraction.
+
+PAST MEDICAL HISTORY:
+- Hypertension (diagnosed 10 years ago, suboptimal control)
+- Hyperlipidemia
+- Prediabetes
+- Obesity
+
+SOCIAL HISTORY:
+- Former smoker (quit 5 years ago, 20 pack-year history)
+- Occasional alcohol use (2-3 drinks per week)
+- Sedentary lifestyle
+
+MEDICATIONS:
+- Lisinopril 10 mg daily
+- Atorvastatin 20 mg daily
+- Aspirin 81 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 142/86 mmHg
+- HR: 82 bpm
+- RR: 14
+- O2 Sat: 96% on room air
+- Weight: 210 lbs
+- Height: 5'10"
+- BMI: 30.1
+
+General: Mildly overweight, no acute distress
+Cardiovascular: Regular rate and rhythm, soft S1, physiologic S2 split, possible S4, no murmurs, minimal JVD
+Respiratory: Clear to auscultation bilaterally, good air movement
+Extremities: No edema
+
+ASSESSMENT:
+New diagnosis of heart failure with mildly reduced ejection fraction (HFmrEF). Currently NYHA Class II. Likely multifactorial etiology including longstanding hypertension and possible coronary artery disease. Will need further workup.
+
+RECENT LABS (01/28/2026):
+- BNP: 420 pg/mL
+- Creatinine: 1.1 mg/dL
+- eGFR: 72 mL/min/1.73m²
+- Potassium: 4.0 mEq/L
+- TSH: 2.1 mIU/L (normal)
+- Hemoglobin: 13.8 g/dL
+
+ECHOCARDIOGRAM (01/23/2026):
+- Left ventricular ejection fraction (LVEF): 42% (mildly reduced)
+- Mild left ventricular hypertrophy
+- Grade I diastolic dysfunction
+- Normal RV size and function
+- No significant valvular disease
+
+PLAN:
+1. Start guideline-directed medical therapy for HFmrEF:
+   - Increase Lisinopril to 20 mg daily
+   - Add Metoprolol succinate 25 mg daily, titrate up
+   - Add Spironolactone 25 mg daily
+   - Consider SGLT2 inhibitor after evaluating renal function
+2. Order cardiac stress test to evaluate for ischemia
+3. Continue statin therapy, optimize lipid control
+4. Dietary counseling - low sodium diet (<2g/day)
+5. Cardiac rehabilitation referral
+6. Weight management program
+7. Repeat echo in 3 months to reassess EF on therapy
+8. Follow-up in 2 weeks to assess medication tolerance
+
+Discussed diagnosis and prognosis with patient. Patient understands and agrees with plan.

@@ -1,0 +1,22 @@
+✓ OpenAI API configured from OPENAI_API_KEY environment variable
+
+============================================================
+Clinical Abstraction Backend - OpenAI Version
+============================================================
+Server: http://localhost:5000
+Health: http://localhost:5000/health
+
+Endpoints:
+  POST /extract - Extract variables from clinical note
+  POST /load-directory - Load .txt files from directory
+
+Supported models:
+  - gpt-4o (recommended, best quality)
+  - gpt-4o-mini (faster, cheaper)
+  - gpt-4-turbo
+============================================================
+
+ * Serving Flask app 'extraction_backend_openai'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.

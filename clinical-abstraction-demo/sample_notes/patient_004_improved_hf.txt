@@ -1,0 +1,62 @@
+CARDIOLOGY FOLLOW-UP NOTE
+
+Patient: Sarah Johnson
+MRN: 55443322
+DOB: 05/12/1968
+Visit Date: 01/30/2026
+
+CHIEF COMPLAINT:
+Follow-up for heart failure management
+
+HISTORY OF PRESENT ILLNESS:
+57 y/o F with history of heart failure presents for routine follow-up. Patient reports significant improvement in symptoms since last visit. Previously NYHA Class II, now reports minimal dyspnea on exertion. Walking 30 minutes daily without difficulty. No orthopnea or paroxysmal nocturnal dyspnea. Excellent medication compliance.
+
+PAST MEDICAL HISTORY:
+- Heart failure with reduced ejection fraction (HFrEF), diagnosed 2023
+- Atrial fibrillation
+- Type 2 Diabetes
+- Chronic kidney disease Stage 2
+
+CURRENT MEDICATIONS:
+- Sacubitril/Valsartan 97/103 mg BID
+- Metoprolol succinate 200 mg daily
+- Spironolactone 25 mg daily
+- Empagliflozin 10 mg daily
+- Furosemide 20 mg daily
+- Apixaban 5 mg BID
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 118/72 mmHg
+- HR: 68 bpm
+- RR: 16
+- O2 Sat: 98% on room air
+- Weight: 158 lbs (down 5 lbs from last visit)
+
+General: Well-appearing, no distress
+Cardiovascular: Regular rhythm, normal S1/S2, no murmurs or gallops, no JVD
+Respiratory: Clear to auscultation bilaterally, no rales or wheezes
+Extremities: No edema
+
+ASSESSMENT:
+Patient showing excellent response to GDMT (guideline-directed medical therapy). Currently NYHA Class I with well-controlled symptoms. HFrEF improving.
+
+LABS (01/28/2026):
+- BNP: 125 pg/mL (significantly decreased from 680 pg/mL 6 months ago)
+- Creatinine: 1.2 mg/dL (stable)
+- Potassium: 4.4 mEq/L
+- Sodium: 138 mEq/L
+
+ECHOCARDIOGRAM (01/15/2026):
+- Left ventricular ejection fraction (LVEF): 45% (improved from 35% one year ago)
+- Mild left ventricular dilation
+- Trace mitral regurgitation
+
+PLAN:
+1. Continue current medication regimen
+2. Continue daily exercise as tolerated
+3. Low sodium diet (<2g/day)
+4. Follow-up in 3 months
+5. Repeat echo in 6 months to reassess LVEF
+
+Excellent progress with medical management.
