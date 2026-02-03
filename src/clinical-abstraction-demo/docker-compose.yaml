@@ -1,0 +1,31 @@
+include:
+  - ../jupyter-common/jupyter-common-compose.yaml
+services:
+  app:
+    container_name: "application-server"
+    build:
+      context: ../..
+      dockerfile: src/clinical-abstraction-demo/Dockerfile
+      additional_contexts:
+        jupyter-extension-builder: service:jupyter-common-extension-builder
+    # NOTE: After building and pushing your custom image, replace the build section above with:
+    # image: "YOUR_REGISTRY_URI/clinical-abstraction-demo:TAG"
+    user: "jupyter"
+    restart: always
+    volumes:
+      - .:/workspace:cached
+    ports:
+      - "8888:8888"
+      - "5000:5000"
+      - "8000:8000"
+    networks:
+      - app-network
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse
+    security_opt:
+      - apparmor:unconfined
+networks:
+  app-network:
+    external: true

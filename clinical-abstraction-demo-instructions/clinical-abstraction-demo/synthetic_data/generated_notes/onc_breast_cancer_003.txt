@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: James Williams
+MRN: 1048
+DOB: 12/28/1967
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IIIB
+
+HISTORY OF PRESENT ILLNESS:
+63 y/o M presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 3.0 cm
+- Grade: 3
+- ER: positive (15%)
+- PR: positive (52%)
+- HER2: negative
+- Ki-67: 27%
+- Lymph nodes: negative
+
+PERFORMANCE STATUS:
+ECOG 2
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Post-surgical changes
+Lymph nodes: No palpable axillary lymphadenopathy
+
+TREATMENT PLAN:
+1. Neoadjuvant chemotherapy - AC-T regimen
+2. Endocrine therapy planned given ER+ status
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Jennifer Lee
+Medical Oncology

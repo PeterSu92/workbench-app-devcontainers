@@ -1,0 +1,41 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Nancy Thompson
+MRN: 1070
+DOB: 05/21/1973
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Colorectal adenocarcinoma (cecum), Stage IIIA
+
+HISTORY OF PRESENT ILLNESS:
+67 y/o F with recent diagnosis of colorectal cancer. Patient underwent colonoscopy for evaluation of rectal bleeding which revealed mass in cecum.
+
+PATHOLOGY:
+- Location: cecum
+- Grade: poorly differentiated
+- Tumor size: 2.1 cm
+- Microsatellite status: MSI-Low
+- KRAS: wild type
+- NRAS: mutation detected
+- BRAF: wild type
+- Lymph nodes: 5 positive / 16 examined
+
+PERFORMANCE STATUS:
+ECOG 2
+
+CEA: 187.1 ng/mL
+
+STAGING:
+- No distant metastases
+
+
+PLAN:
+1. Neoadjuvant FOLFOX chemotherapy
+2. Adjuvant chemotherapy (FOLFOX or CAPOX)
+3. Genetic counseling for Lynch syndrome
+4. Nutritional support
+5. Follow-up in 2 weeks
+
+Dr. Patricia Nguyen
+Gastrointestinal Oncology

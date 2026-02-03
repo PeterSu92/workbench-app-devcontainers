@@ -1,0 +1,36 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Robert Lee
+MRN: 1062
+DOB: 01/07/1949
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Non-small cell lung cancer (small cell carcinoma), Stage IIA
+
+HISTORY OF PRESENT ILLNESS:
+77 y/o F with 28-pack-year smoking history presents with newly diagnosed lung cancer. Initial presentation with incidental finding on chest CT.
+
+PATHOLOGY:
+- Histology: small cell carcinoma
+- PD-L1 expression: 82%
+- EGFR: wild type
+- ALK: negative
+
+IMAGING:
+- Primary tumor: left upper lobe, 3.9 cm
+- No lymphadenopathy
+- No distant metastases
+
+PERFORMANCE STATUS:
+ECOG 3
+
+PLAN:
+1. Platinum-based chemotherapy with pembrolizumab (given PD-L1 82%)
+2. Radiation oncology consultation
+3. Smoking cessation counseling
+4. Supportive care consultation
+5. Follow-up imaging in 8 weeks
+
+Dr. Susan Miller
+Thoracic Oncology

@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Karen Lee
+MRN: 1050
+DOB: 03/25/1959
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IIIA
+
+HISTORY OF PRESENT ILLNESS:
+65 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 3.9 cm
+- Grade: 2
+- ER: negative (44%)
+- PR: positive (0%)
+- HER2: positive
+- Ki-67: 16%
+- Lymph nodes: negative
+
+PERFORMANCE STATUS:
+ECOG 0
+
+PHYSICAL EXAMINATION:
+General: Well-appearing, no acute distress
+Breast: Post-surgical changes
+Lymph nodes: No palpable axillary lymphadenopathy
+
+TREATMENT PLAN:
+1. Neoadjuvant chemotherapy - AC-T regimen
+2. Trastuzumab (Herceptin) given HER2+ status
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Emily Roberts
+Medical Oncology

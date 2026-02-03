@@ -1,0 +1,36 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: James Hernandez
+MRN: 1061
+DOB: 05/06/1967
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Non-small cell lung cancer (squamous cell carcinoma), Stage IIIB
+
+HISTORY OF PRESENT ILLNESS:
+76 y/o F with 58-pack-year smoking history presents with newly diagnosed lung cancer. Initial presentation with incidental finding on chest CT.
+
+PATHOLOGY:
+- Histology: squamous cell carcinoma
+- PD-L1 expression: 32%
+- EGFR: wild type
+- ALK: negative
+
+IMAGING:
+- Primary tumor: right upper lobe, 3.1 cm
+- Mediastinal lymphadenopathy present
+- No distant metastases
+
+PERFORMANCE STATUS:
+ECOG 2
+
+PLAN:
+1. Platinum-doublet chemotherapy
+2. Radiation oncology consultation
+3. Smoking cessation counseling
+4. Supportive care consultation
+5. Follow-up imaging in 8 weeks
+
+Dr. Susan Miller
+Thoracic Oncology

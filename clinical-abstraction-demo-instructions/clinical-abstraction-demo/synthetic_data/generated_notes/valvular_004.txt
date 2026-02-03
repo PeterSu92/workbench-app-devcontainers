@@ -1,0 +1,36 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Margaret Hernandez
+MRN: 1037
+DOB: 12/24/1945
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for valvular heart disease
+
+HISTORY OF PRESENT ILLNESS:
+74 y/o F with history of mitral regurgitation presents for evaluation. Generally asymptomatic.
+
+PAST MEDICAL HISTORY:
+- Mitral Regurgitation
+- Hypertension
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 124/87 mmHg
+- HR: 81 bpm
+
+Cardiovascular: Holosystolic murmur at apex radiating to axilla
+
+ECHOCARDIOGRAM:
+- Mitral Regurgitation: Mild
+- LVEF: 54%
+
+
+PLAN:
+1. Continue monitoring
+2. Follow-up in 12 months
+
+Dr. Steven Wu
+Cardiology

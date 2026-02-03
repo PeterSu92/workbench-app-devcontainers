@@ -1,0 +1,66 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Thomas Rodriguez
+MRN: 1004
+DOB: 02/13/1954
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for heart failure management
+
+HISTORY OF PRESENT ILLNESS:
+69 y/o F with history of heart failure presents for routine evaluation. No limitations. No symptoms with ordinary activity. Generally doing well with current medications. Denies chest pain or palpitations.
+
+PAST MEDICAL HISTORY:
+- Congestive Heart Failure (CHF), diagnosed 5 years ago
+- Hypertension
+
+
+
+
+MEDICATIONS:
+- Furosemide 20 mg daily
+- Carvedilol 25 mg BID
+- Lisinopril 20 mg daily
+
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 124/99 mmHg
+- HR: 101 bpm
+- RR: 17
+- O2 Sat: 93% on room air
+- Weight: 197 lbs
+
+General: Alert and oriented, appears
+Cardiovascular: Irregularly irregular rhythm, S3 gallop present, JVD not elevated
+Respiratory: Bilateral rales at bases
+Extremities: none pitting edema bilateral lower extremities
+
+ASSESSMENT:
+NYHA Class I heart failure with mid-range ejection fraction. Currently compensated.
+
+LABS (collected 01/31/2026):
+- BNP: 1637 pg/mL (elevated)
+- Creatinine: 1.4 mg/dL
+- Sodium: 135 mEq/L
+- Potassium: 4.4 mEq/L
+- Hemoglobin: 11.0 g/dL
+
+ECHOCARDIOGRAM (01/31/2026):
+- Left ventricular ejection fraction (LVEF): 49%
+- Moderate left ventricular dilation
+- Moderate mitral regurgitation
+
+
+PLAN:
+1. Continue current diuretic dose
+2. Uptitrate carvedilol
+3. Continue ACE inhibitor
+4. Maintain current fluid intake
+5. Daily weights
+6. Follow-up in 1 weeks
+
+Dr. Sarah Johnson
+Cardiology

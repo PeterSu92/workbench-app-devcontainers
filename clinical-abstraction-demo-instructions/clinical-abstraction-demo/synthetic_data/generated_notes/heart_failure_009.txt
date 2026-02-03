@@ -1,0 +1,66 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: James Jackson
+MRN: 1009
+DOB: 06/01/1964
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Worsening shortness of breath and fatigue
+
+HISTORY OF PRESENT ILLNESS:
+74 y/o F with history of heart failure presents for urgent evaluation. Marked limitation of activity. Comfortable only at rest. Reports difficulty climbing stairs and performing daily activities. Denies chest pain or palpitations.
+
+PAST MEDICAL HISTORY:
+- Congestive Heart Failure (CHF), diagnosed 1 years ago
+- Hypertension
+
+
+
+
+MEDICATIONS:
+- Furosemide 20 mg daily
+- Carvedilol 6.25 mg BID
+- Lisinopril 20 mg daily
+- Spironolactone 25 mg daily
+- Digoxin 0.125 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 98/65 mmHg
+- HR: 83 bpm
+- RR: 22
+- O2 Sat: 93% on room air
+- Weight: 184 lbs
+
+General: Alert and oriented, appears fatigued and
+Cardiovascular: Regular rhythm, S3 gallop present, JVD at 9 cm
+Respiratory: Bilateral rales at bases
+Extremities: 2+ pitting edema bilateral lower extremities
+
+ASSESSMENT:
+NYHA Class III heart failure with reduced ejection fraction (HFrEF). Evidence of volume overload.
+
+LABS (collected 01/31/2026):
+- BNP: 814 pg/mL (elevated)
+- Creatinine: 1.3 mg/dL
+- Sodium: 140 mEq/L
+- Potassium: 3.8 mEq/L
+
+
+ECHOCARDIOGRAM (01/31/2026):
+- Left ventricular ejection fraction (LVEF): 23%
+- Moderate left ventricular dilation
+- Mild mitral regurgitation
+
+
+PLAN:
+1. Increase furosemide to 40 mg BID
+2. Continue carvedilol
+3. Continue ACE inhibitor
+4. Strict fluid restriction 2L/day
+5. Daily weights
+6. Follow-up in 1 weeks
+
+Dr. James Wilson
+Cardiology

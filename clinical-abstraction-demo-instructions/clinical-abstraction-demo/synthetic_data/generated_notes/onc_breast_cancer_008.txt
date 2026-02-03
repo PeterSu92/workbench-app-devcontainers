@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Richard Lee
+MRN: 1053
+DOB: 02/09/1980
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IB
+
+HISTORY OF PRESENT ILLNESS:
+68 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 1.0 cm
+- Grade: 2
+- ER: positive (95%)
+- PR: positive (55%)
+- HER2: negative
+- Ki-67: 16%
+- Lymph nodes: 8 positive nodes
+
+PERFORMANCE STATUS:
+ECOG 1
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Post-surgical changes
+Lymph nodes: No palpable axillary lymphadenopathy
+
+TREATMENT PLAN:
+1. Surgical consultation for lumpectomy vs mastectomy
+2. Endocrine therapy planned given ER+ status
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Jennifer Lee
+Medical Oncology

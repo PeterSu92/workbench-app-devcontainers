@@ -1,0 +1,40 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Patricia Jones
+MRN: 1040
+DOB: 01/23/1984
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Hypertension management
+
+HISTORY OF PRESENT ILLNESS:
+58 y/o M with history of hypertension presents for follow-up. Blood pressures at home range 140-160/85-95.
+
+PAST MEDICAL HISTORY:
+- Hypertension
+
+- Chronic Kidney Disease Stage 3
+
+MEDICATIONS:
+- Lisinopril 20 mg daily
+- Amlodipine 10 mg daily
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 149/95 mmHg
+- HR: 63 bpm
+- BMI: 32.0
+
+General: Well-appearing
+Cardiovascular: Regular rate and rhythm
+
+PLAN:
+1. Increase antihypertensive medications
+2. Home blood pressure monitoring
+3. Lifestyle modifications
+4. Follow-up in 3 months
+
+Dr. Michelle Chang
+Cardiology

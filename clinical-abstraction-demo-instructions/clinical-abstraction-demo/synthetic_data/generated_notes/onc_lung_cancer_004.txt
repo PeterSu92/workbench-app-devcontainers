@@ -1,0 +1,36 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Joseph Martin
+MRN: 1059
+DOB: 11/15/1950
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Non-small cell lung cancer (small cell carcinoma), Stage IIA
+
+HISTORY OF PRESENT ILLNESS:
+74 y/o M with 23-pack-year smoking history presents with newly diagnosed lung cancer. Initial presentation with persistent cough and hemoptysis.
+
+PATHOLOGY:
+- Histology: small cell carcinoma
+- PD-L1 expression: 64%
+- EGFR: wild type
+- ALK: negative
+
+IMAGING:
+- Primary tumor: left upper lobe, 1.9 cm
+- No lymphadenopathy
+- No distant metastases
+
+PERFORMANCE STATUS:
+ECOG 3
+
+PLAN:
+1. Platinum-based chemotherapy with pembrolizumab (given PD-L1 64%)
+2. Radiation oncology consultation
+3. Smoking cessation counseling
+4. Supportive care consultation
+5. Follow-up imaging in 8 weeks
+
+Dr. David Chen
+Thoracic Oncology

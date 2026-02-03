@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Mary Martinez
+MRN: 1049
+DOB: 09/10/1961
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IIA
+
+HISTORY OF PRESENT ILLNESS:
+64 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 4.3 cm
+- Grade: 2
+- ER: positive (71%)
+- PR: positive (47%)
+- HER2: positive
+- Ki-67: 12%
+- Lymph nodes: negative
+
+PERFORMANCE STATUS:
+ECOG 2
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Post-surgical changes
+Lymph nodes: Palpable axillary nodes
+
+TREATMENT PLAN:
+1. Neoadjuvant chemotherapy - AC-T regimen
+2. Trastuzumab (Herceptin) given HER2+ status
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Jennifer Lee
+Medical Oncology

@@ -1,0 +1,40 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Richard Rodriguez
+MRN: 1042
+DOB: 12/13/1973
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Hypertension management
+
+HISTORY OF PRESENT ILLNESS:
+60 y/o M with history of hypertension presents for follow-up. Blood pressures at home range 140-160/85-95.
+
+PAST MEDICAL HISTORY:
+- Hypertension
+
+
+
+MEDICATIONS:
+- Lisinopril 10 mg daily
+
+- Hydrochlorothiazide 25 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 159/82 mmHg
+- HR: 81 bpm
+- BMI: 25.4
+
+General: Well-appearing
+Cardiovascular: Regular rate and rhythm
+
+PLAN:
+1. Increase antihypertensive medications
+2. Home blood pressure monitoring
+3. Lifestyle modifications
+4. Follow-up in 1 months
+
+Dr. Michelle Chang
+Cardiology

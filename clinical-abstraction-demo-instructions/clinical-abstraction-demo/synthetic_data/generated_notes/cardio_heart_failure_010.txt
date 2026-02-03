@@ -1,0 +1,66 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: William Johnson
+MRN: 1010
+DOB: 08/28/1970
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for heart failure management
+
+HISTORY OF PRESENT ILLNESS:
+75 y/o F with history of heart failure presents for routine evaluation. Mild symptoms with ordinary activity. Comfortable at rest. Generally doing well with current medications. Denies chest pain or palpitations.
+
+PAST MEDICAL HISTORY:
+- Congestive Heart Failure (CHF), diagnosed 3 years ago
+- Hypertension
+
+
+
+
+MEDICATIONS:
+- Furosemide 20 mg daily
+- Carvedilol 12.5 mg BID
+- Lisinopril 10 mg daily
+- Spironolactone 25 mg daily
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 110/97 mmHg
+- HR: 88 bpm
+- RR: 14
+- O2 Sat: 94% on room air
+- Weight: 176 lbs
+
+General: Alert and oriented, appears
+Cardiovascular: Regular rhythm, no S3, JVD not elevated
+Respiratory: Bilateral rales at bases
+Extremities: none pitting edema bilateral lower extremities
+
+ASSESSMENT:
+NYHA Class II heart failure with mid-range ejection fraction. Currently compensated.
+
+LABS (collected 01/31/2026):
+- BNP: 636 pg/mL (elevated)
+- Creatinine: 1.7 mg/dL
+- Sodium: 136 mEq/L
+- Potassium: 4.0 mEq/L
+
+
+ECHOCARDIOGRAM (01/31/2026):
+- Left ventricular ejection fraction (LVEF): 55%
+- Severe left ventricular dilation
+- Moderate mitral regurgitation
+
+
+PLAN:
+1. Continue current diuretic dose
+2. Uptitrate carvedilol
+3. Continue ACE inhibitor
+4. Maintain current fluid intake
+5. Daily weights
+6. Follow-up in 1 weeks
+
+Dr. Michael Chen
+Cardiology

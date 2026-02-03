@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Christopher Miller
+MRN: 1023
+DOB: 03/14/1967
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Chest pain with exertion
+
+HISTORY OF PRESENT ILLNESS:
+63 y/o M with history of coronary artery disease presents with typical anginal symptoms. Symptoms occur with moderate exertion, relieved by rest. Patient has history of stable angina. 
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+- s/p PCI with stent placement to LAD 2023
+- s/p CABG 2019
+- Hypertension
+- Hyperlipidemia
+
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 40 mg daily
+- Metoprolol 50 mg BID
+- Clopidogrel 75 mg daily
+- Lisinopril 10 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 120/67 mmHg
+- HR: 60 bpm
+- RR: 17
+- O2 Sat: 97% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.011 ng/mL (negative)
+- LDL: 140 mg/dL
+- HDL: 64 mg/dL
+- Triglycerides: 168 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 47%
+- No regional wall motion abnormalities
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Consider stress test
+4. Lifestyle modifications
+5. Follow-up in 3 months
+
+Dr. Jennifer Lee
+Cardiology

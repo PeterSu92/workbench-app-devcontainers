@@ -1,0 +1,66 @@
+================================================================================
+CLINICAL ABSTRACTION DEMO - QUICK START
+================================================================================
+
+Follow these steps to get the demo running in under 5 minutes:
+
+STEP 1: Install Dependencies
+-----------------------------
+pip install -r requirements.txt
+
+
+STEP 2: Set Your OpenAI API Key (Optional)
+-------------------------------------------
+export OPENAI_API_KEY="your-api-key-here"
+
+Note: If you skip this step, you can enter the API key in the web UI.
+
+
+STEP 3: Start the Demo
+-----------------------
+./start_demo.sh
+
+(Or on Windows: python extraction_backend_openai.py in one terminal,
+ then python -m http.server 8000 in another)
+
+
+STEP 4: Open Your Browser
+--------------------------
+Local: http://localhost:8000/index_ai_clean.html
+
+Verily Workbench:
+https://workbench.verily.com/app/YOUR-WORKSPACE-ID/proxy/8000/index_ai_clean.html
+
+
+STEP 5: Try It Out
+-------------------
+1. Load sample data (button in the UI)
+2. Select a patient document
+3. Click "Extract with AI"
+4. See the extracted clinical variables!
+
+
+TROUBLESHOOTING
+---------------
+- Port in use? Kill process: lsof -ti:5000 | xargs kill -9
+- API key issues? Check https://platform.openai.com/api-keys
+- Need help? Check README.md for full documentation
+
+
+WHAT'S INCLUDED
+---------------
+- Web-based clinical abstraction interface
+- Flask API backend for OpenAI integration
+- 3 sample clinical notes (heart failure cases)
+- Automatic extraction of:
+  • NYHA Class
+  • Ejection Fraction
+  • Blood Pressure
+  • Heart Rate
+  • BNP levels
+  • Heart Failure Diagnosis Type
+
+
+================================================================================
+Ready to go! Run ./start_demo.sh to begin.
+================================================================================

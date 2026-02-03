@@ -1,0 +1,55 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Karen Thompson
+MRN: 1032
+DOB: 06/06/1965
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for atrial fibrillation
+
+HISTORY OF PRESENT ILLNESS:
+74 y/o M with history of permanent atrial fibrillation presents for routine follow-up. Patient remains in atrial fibrillation. Reports medication non-compliance.
+
+PAST MEDICAL HISTORY:
+- Atrial Fibrillation (permanent)
+- Hypertension
+
+- Stroke/TIA 2022
+
+
+MEDICATIONS:
+- Apixaban 5 mg BID
+- Metoprolol 100 mg BID
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 147/74 mmHg
+- HR: 69 bpm (irregularly irregular)
+- RR: 19
+
+General: Well-appearing
+Cardiovascular: Irregularly irregular rhythm, no murmurs
+Respiratory: Clear bilaterally
+
+EKG:
+Atrial fibrillation with controlled ventricular response, rate 69 bpm
+
+ECHOCARDIOGRAM:
+- LVEF: 57%
+- Left atrial enlargement
+- No significant valvular disease
+
+ASSESSMENT:
+Permanent atrial fibrillation, adequately rate controlled
+CHA2DS2-VASc score: 5
+
+PLAN:
+1. Continue rate control medications
+2. Continue anticoagulation
+3. Continue medical management
+4. Follow-up in 3 months
+
+Dr. Kevin Park
+Electrophysiology

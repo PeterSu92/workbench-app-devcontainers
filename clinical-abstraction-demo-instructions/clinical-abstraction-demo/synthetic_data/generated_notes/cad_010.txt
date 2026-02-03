@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Jennifer Martin
+MRN: 1025
+DOB: 03/28/1962
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up post-cardiac catheterization
+
+HISTORY OF PRESENT ILLNESS:
+65 y/o F with history of coronary artery disease presents with typical anginal symptoms. Denies current chest pain. Patient has history of MI in 2022. 
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+- s/p PCI with stent placement to LAD 2024
+- s/p CABG 2019
+- Hypertension
+- Hyperlipidemia
+- Type 2 Diabetes
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 80 mg daily
+- Metoprolol 100 mg BID
+
+- Lisinopril 10 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 115/75 mmHg
+- HR: 66 bpm
+- RR: 17
+- O2 Sat: 99% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 122 mg/dL
+- HDL: 48 mg/dL
+- Triglycerides: 113 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 60%
+- Regional wall motion abnormalities in inferior wall
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Continue medical management
+4. Lifestyle modifications
+5. Follow-up in 6 months
+
+Dr. Robert Thompson
+Cardiology

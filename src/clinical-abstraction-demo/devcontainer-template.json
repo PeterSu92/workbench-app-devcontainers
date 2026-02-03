@@ -1,0 +1,23 @@
+{
+  "id": "clinical-abstraction-demo",
+  "description": "Clinical abstraction demo with OpenAI GPT-4 for extracting clinical variables from medical notes. Includes JupyterLab, Flask backend (port 5000), and web UI (port 8000).",
+  "version": "1.0.0",
+  "name": "Clinical Abstraction Demo",
+  "documentationURL": "https://github.com/verily-src/workbench-app-devcontainers/tree/master/src/clinical-abstraction-demo",
+  "licenseURL": "https://github.com/verily-src/workbench-app-devcontainers/blob/master/LICENSE",
+  "options": {
+    "cloud": {
+      "type": "string",
+      "description": "VM cloud environment",
+      "proposals": ["gcp", "aws"],
+      "default": "gcp"
+    },
+    "login": {
+      "type": "string",
+      "description": "Whether to log in to workbench CLI",
+      "proposals": ["true", "false"],
+      "default": "false"
+    }
+  },
+  "platforms": ["Any"]
+}

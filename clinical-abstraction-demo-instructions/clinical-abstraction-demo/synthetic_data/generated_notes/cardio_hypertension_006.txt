@@ -1,0 +1,40 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Robert Smith
+MRN: 1044
+DOB: 10/18/1963
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Hypertension management
+
+HISTORY OF PRESENT ILLNESS:
+62 y/o M with history of hypertension presents for follow-up. Blood pressures at home range 140-160/85-95.
+
+PAST MEDICAL HISTORY:
+- Hypertension
+- Type 2 Diabetes
+
+
+MEDICATIONS:
+- Lisinopril 40 mg daily
+- Amlodipine 5 mg daily
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 167/90 mmHg
+- HR: 60 bpm
+- BMI: 32.6
+
+General: Well-appearing
+Cardiovascular: Regular rate and rhythm
+
+PLAN:
+1. Increase antihypertensive medications
+2. Home blood pressure monitoring
+3. Lifestyle modifications
+4. Follow-up in 1 months
+
+Dr. Daniel Brown
+Cardiology

@@ -1,0 +1,36 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Sarah Lopez
+MRN: 1038
+DOB: 07/27/1968
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for valvular heart disease
+
+HISTORY OF PRESENT ILLNESS:
+75 y/o M with history of aortic stenosis presents for evaluation. Generally asymptomatic.
+
+PAST MEDICAL HISTORY:
+- Aortic Stenosis
+- Hypertension
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 133/81 mmHg
+- HR: 83 bpm
+
+Cardiovascular: Harsh systolic ejection murmur at right upper sternal border radiating to carotids
+
+ECHOCARDIOGRAM:
+- Aortic Stenosis: Moderate
+- LVEF: 67%
+- Peak gradient: 56 mmHg
+
+PLAN:
+1. Continue monitoring
+2. Follow-up in 12 months
+
+Dr. Steven Wu
+Cardiology

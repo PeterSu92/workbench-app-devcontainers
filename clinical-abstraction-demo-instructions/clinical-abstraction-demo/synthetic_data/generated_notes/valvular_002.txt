@@ -1,0 +1,36 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Christopher Perez
+MRN: 1035
+DOB: 09/09/1969
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for valvular heart disease
+
+HISTORY OF PRESENT ILLNESS:
+72 y/o M with history of mitral regurgitation presents for evaluation. Generally asymptomatic.
+
+PAST MEDICAL HISTORY:
+- Mitral Regurgitation
+- Hypertension
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 118/62 mmHg
+- HR: 89 bpm
+
+Cardiovascular: Holosystolic murmur at apex radiating to axilla
+
+ECHOCARDIOGRAM:
+- Mitral Regurgitation: Mild
+- LVEF: 68%
+
+
+PLAN:
+1. Continue monitoring
+2. Follow-up in 6 months
+
+Dr. Steven Wu
+Cardiology

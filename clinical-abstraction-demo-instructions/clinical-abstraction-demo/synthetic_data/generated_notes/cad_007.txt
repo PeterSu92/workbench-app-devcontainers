@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: William Taylor
+MRN: 1022
+DOB: 01/11/1973
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Chest pain with exertion
+
+HISTORY OF PRESENT ILLNESS:
+62 y/o F with history of coronary artery disease presents with atypical chest discomfort. Symptoms occur with moderate exertion, relieved by rest. Patient has history of MI in 2021. 
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+
+
+- Hypertension
+- Hyperlipidemia
+- Type 2 Diabetes
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 80 mg daily
+- Metoprolol 50 mg BID
+
+- Lisinopril 20 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 141/62 mmHg
+- HR: 73 bpm
+- RR: 18
+- O2 Sat: 99% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 150 mg/dL
+- HDL: 44 mg/dL
+- Triglycerides: 245 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 57%
+- No regional wall motion abnormalities
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Continue medical management
+4. Lifestyle modifications
+5. Follow-up in 3 months
+
+Dr. David Martinez
+Cardiology

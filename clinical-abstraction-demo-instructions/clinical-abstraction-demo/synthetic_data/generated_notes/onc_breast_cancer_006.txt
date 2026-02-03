@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Margaret Perez
+MRN: 1051
+DOB: 12/27/1980
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IIIB
+
+HISTORY OF PRESENT ILLNESS:
+66 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 2.2 cm
+- Grade: 3
+- ER: negative (41%)
+- PR: negative (99%)
+- HER2: positive
+- Ki-67: 10%
+- Lymph nodes: negative
+
+PERFORMANCE STATUS:
+ECOG 1
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Palpable mass right upper outer quadrant
+Lymph nodes: Palpable axillary nodes
+
+TREATMENT PLAN:
+1. Neoadjuvant chemotherapy - AC-T regimen
+2. Trastuzumab (Herceptin) given HER2+ status
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Emily Roberts
+Medical Oncology

@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Patricia Harris
+MRN: 1021
+DOB: 03/01/1958
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up post-cardiac catheterization
+
+HISTORY OF PRESENT ILLNESS:
+61 y/o M with history of coronary artery disease presents with atypical chest discomfort. Denies current chest pain. Patient has history of MI in 2023. Currently compliant with dual antiplatelet therapy.
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+- s/p PCI with stent placement to LAD 2023
+- s/p CABG 2023
+- Hypertension
+- Hyperlipidemia
+
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 80 mg daily
+- Metoprolol 100 mg BID
+
+- Lisinopril 20 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 122/66 mmHg
+- HR: 78 bpm
+- RR: 12
+- O2 Sat: 96% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.299 ng/mL (elevated)
+- LDL: 131 mg/dL
+- HDL: 53 mg/dL
+- Triglycerides: 172 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 50%
+- No regional wall motion abnormalities
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Continue medical management
+4. Lifestyle modifications
+5. Follow-up in 3 months
+
+Dr. David Martinez
+Cardiology

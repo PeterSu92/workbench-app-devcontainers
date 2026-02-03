@@ -1,0 +1,36 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Margaret Anderson
+MRN: 1036
+DOB: 11/05/1965
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Dyspnea on exertion
+
+HISTORY OF PRESENT ILLNESS:
+73 y/o M with history of aortic stenosis presents for evaluation. Reports worsening shortness of breath with activity.
+
+PAST MEDICAL HISTORY:
+- Aortic Stenosis
+- Hypertension
+- Heart Failure
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 127/86 mmHg
+- HR: 65 bpm
+
+Cardiovascular: Harsh systolic ejection murmur at right upper sternal border radiating to carotids
+
+ECHOCARDIOGRAM:
+- Aortic Stenosis: Severe
+- LVEF: 46%
+- Peak gradient: 56 mmHg
+
+PLAN:
+1. Refer to cardiac surgery for valve replacement
+2. Follow-up in 6 months
+
+Dr. Steven Wu
+Cardiology

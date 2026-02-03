@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: David Lee
+MRN: 1046
+DOB: 01/10/1977
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IB
+
+HISTORY OF PRESENT ILLNESS:
+61 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 2.5 cm
+- Grade: 3
+- ER: negative (55%)
+- PR: negative (12%)
+- HER2: negative
+- Ki-67: 12%
+- Lymph nodes: negative
+
+PERFORMANCE STATUS:
+ECOG 2
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Post-surgical changes
+Lymph nodes: Palpable axillary nodes
+
+TREATMENT PLAN:
+1. Surgical consultation for lumpectomy vs mastectomy
+2. Chemotherapy planned
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Jennifer Lee
+Medical Oncology
