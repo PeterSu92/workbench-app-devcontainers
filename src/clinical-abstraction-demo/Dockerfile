@@ -17,8 +17,9 @@ RUN mkdir -p /home/jupyter/clinical-abstraction-demo
 COPY src/clinical-abstraction-demo/app/ /home/jupyter/clinical-abstraction-demo/
 
 # Install Python dependencies
-# Use --ignore-installed to handle distutils-installed packages like blinker
-RUN pip install --no-cache-dir --ignore-installed -r /home/jupyter/clinical-abstraction-demo/requirements.txt
+# Use --ignore-installed for blinker only (distutils-installed in base image)
+RUN pip install --no-cache-dir --ignore-installed blinker && \
+    pip install --no-cache-dir -r /home/jupyter/clinical-abstraction-demo/requirements.txt
 
 # Create supervisor configuration to run both Flask and HTTP servers
 RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf && \
@@ -45,5 +46,11 @@ RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf &&
 # Expose ports (Flask backend on 5000, HTTP server on 8000, JupyterLab on 8888)
 EXPOSE 5000 8000 8888
 
-# Start supervisor in background and then start jupyter
-CMD sudo /usr/bin/supervisord && /home/jupyter/.local/bin/jupyter lab
+# Create a startup script that launches supervisor before Jupyter
+RUN echo '#!/bin/bash' | sudo tee /usr/local/bin/start-clinical-demo.sh && \
+    echo 'sudo /usr/bin/supervisord' | sudo tee -a /usr/local/bin/start-clinical-demo.sh && \
+    echo 'exec "$@"' | sudo tee -a /usr/local/bin/start-clinical-demo.sh && \
+    sudo chmod +x /usr/local/bin/start-clinical-demo.sh
+
+# Use the startup script as entrypoint wrapper (preserves base image CMD)
+ENTRYPOINT ["/usr/local/bin/start-clinical-demo.sh"]
