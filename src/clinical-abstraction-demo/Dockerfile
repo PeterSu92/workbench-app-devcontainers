@@ -17,7 +17,8 @@ RUN mkdir -p /home/jupyter/clinical-abstraction-demo
 COPY src/clinical-abstraction-demo/app/ /home/jupyter/clinical-abstraction-demo/
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r /home/jupyter/clinical-abstraction-demo/requirements.txt
+# Use --ignore-installed to handle distutils-installed packages like blinker
+RUN pip install --no-cache-dir --ignore-installed -r /home/jupyter/clinical-abstraction-demo/requirements.txt
 
 # Create supervisor configuration to run both Flask and HTTP servers
 RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf && \
