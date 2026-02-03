@@ -395,6 +395,332 @@ These are for local development only.
 
 ---
 
+## Issues Encountered & Solutions
+
+### Issue 1: Files Not in Git Repository
+
+**Error:**
+```
+failed to calculate checksum of ref: "/clinical-abstraction-demo/": not found
+```
+
+**Problem:** Workbench builds containers from the git repository, not local filesystem. The COPY command in Dockerfile referenced files that weren't committed to git.
+
+**Solution:**
+- All app files must be in the `src/clinical-abstraction-demo/` directory
+- Structure: `src/clinical-abstraction-demo/app/` contains all application code
+- Dockerfile COPY path: `COPY src/clinical-abstraction-demo/app/ /home/jupyter/clinical-abstraction-demo/`
+- Commit and push all files before deploying
+
+### Issue 2: Pip Dependency Conflict (blinker)
+
+**Error:**
+```
+Cannot uninstall blinker 1.4
+It is a distutils installed project and thus we cannot accurately determine which files belong to it
+```
+
+**Problem:** Base Jupyter image has `blinker 1.4` installed via distutils. Flask wants to upgrade it but can't uninstall the old version.
+
+**Solution:**
+```dockerfile
+# Install blinker with --ignore-installed, then install other deps normally
+RUN pip install --no-cache-dir --ignore-installed blinker && \
+    pip install --no-cache-dir -r /home/jupyter/clinical-abstraction-demo/requirements.txt
+```
+
+**DON'T** use `--ignore-installed` for everything - it reinstalls all dependencies and makes builds very slow.
+
+### Issue 3: Jupyter Startup Failure
+
+**Error:**
+```
+[C] `root_dir` and `file_to_run` are incompatible. They don't share the same subtrees.
+```
+
+**Problem:** Overriding CMD breaks Workbench's Jupyter startup configuration.
+
+**BAD (doesn't work):**
+```dockerfile
+CMD sudo /usr/bin/supervisord && /home/jupyter/.local/bin/jupyter lab
+```
+
+**BETTER (but still problematic):**
+```dockerfile
+ENTRYPOINT ["/usr/local/bin/start-script.sh"]
+# Script runs supervisor then exec "$@"
+```
+
+**Problem with ENTRYPOINT approach:** Base image may use its own ENTRYPOINT, causing conflicts.
+
+**BEST SOLUTION:** Override CMD to start supervisor then Jupyter directly:
+```dockerfile
+RUN echo '#!/bin/bash' | sudo tee /usr/local/bin/start-all.sh && \
+    echo 'sudo /usr/bin/supervisord &' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo 'sleep 2' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo 'exec /home/jupyter/.local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root' | sudo tee -a /usr/local/bin/start-all.sh && \
+    sudo chmod +x /usr/local/bin/start-all.sh
+
+CMD ["/usr/local/bin/start-all.sh"]
+```
+
+### Issue 4: Container Restart Loop
+
+**Symptom:** Container keeps restarting, logs show supervisor starting but then container exits.
+
+**Causes:**
+1. Main process exits (supervisor with `nodaemon=false` runs in background and exits)
+2. JupyterLab crashes due to configuration issues
+3. Port 8888 not binding, causing Workbench health checks to fail
+
+**Debug Commands (on VM):**
+```bash
+# Check container status
+docker ps -a
+
+# View logs
+docker logs application-server --tail 200
+
+# Check what's actually running in container
+docker exec application-server ps aux
+
+# Check supervisor status
+docker exec application-server sudo supervisorctl status
+
+# View supervisor logs
+docker exec application-server sudo tail -f /var/log/supervisor/*.log
+```
+
+### Issue 5: Build vs. Image Deployment Speed
+
+**Build Approach (slow):**
+```yaml
+build:
+  context: ../..
+  dockerfile: src/clinical-abstraction-demo/Dockerfile
+```
+- Builds on VM every deployment
+- 30-40 minutes per instance
+- Good for development/testing only
+
+**GAR Image Approach (fast):**
+```yaml
+image: "us-central1-docker.pkg.dev/PROJECT/REPO/NAME:TAG"
+```
+- Build once locally or in CI
+- Push to Google Artifact Registry
+- 2-5 minute deployments
+- **Required for production**
+
+**How to Switch to GAR:**
+```bash
+cd src/clinical-abstraction-demo
+
+# Build using docker-compose (handles additional_contexts)
+docker compose build
+
+# Tag the image
+export CONTAINER_TAG="us-central1-docker.pkg.dev/PROJECT/REPO/NAME:$(date +'%Y%m%d')"
+docker tag clinical-abstraction-demo-app:latest ${CONTAINER_TAG}
+
+# Push to GAR
+docker push ${CONTAINER_TAG}
+
+# Update docker-compose.yaml to use image: instead of build:
+# Then commit and push
+```
+
+---
+
+## Best Practices for Workbench Custom Apps
+
+### 1. File Organization
+
+```
+src/YOUR-APP-NAME/
+├── .devcontainer.json          # Devcontainer config
+├── devcontainer-template.json  # Template metadata
+├── docker-compose.yaml         # Docker Compose config
+├── Dockerfile                  # Container build
+├── README.md                   # Deployment guide
+└── app/                        # All application files
+    ├── your_app_files_here
+    └── requirements.txt
+```
+
+### 2. Dockerfile Structure
+
+```dockerfile
+FROM us-central1-docker.pkg.dev/verily-workbench-public/apps/workbench-jupyter:latest
+
+# Install jupyter extensions (required)
+RUN --mount=type=bind,from=jupyter-extension-builder,source=/dist,target=/tmp/extensions \
+    /tmp/extensions/setup.sh
+
+# Install system dependencies
+RUN sudo apt-get update && sudo apt-get install -y \
+    your-packages-here \
+    && sudo rm -rf /var/lib/apt/lists/*
+
+# Copy application files
+COPY src/YOUR-APP-NAME/app/ /home/jupyter/your-app/
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r /home/jupyter/your-app/requirements.txt
+
+# Expose additional ports (8888 is default for Jupyter)
+EXPOSE 5000 8000 8888
+
+# IMPORTANT: Only override CMD, not ENTRYPOINT
+CMD ["/path/to/your/startup-script.sh"]
+```
+
+### 3. Supervisor Configuration
+
+If you need background services, supervisor is the right approach:
+
+```dockerfile
+# Install supervisor
+RUN sudo apt-get update && sudo apt-get install -y supervisor
+
+# Create supervisor config
+RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/myapp.conf && \
+    echo 'nodaemon=false' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo '' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo '[program:my-service]' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo 'command=/path/to/service' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo 'directory=/home/jupyter/app' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo 'user=jupyter' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo 'autostart=true' | sudo tee -a /etc/supervisor/conf.d/myapp.conf && \
+    echo 'autorestart=true' | sudo tee -a /etc/supervisor/conf.d/myapp.conf
+```
+
+### 4. Testing Before Deployment
+
+**Local Testing:**
+```bash
+# Build locally
+cd src/your-app
+docker compose build
+
+# Run locally
+docker compose up
+
+# Test that all services start
+docker ps
+docker logs application-server
+
+# Check ports
+curl http://localhost:8888  # Jupyter
+curl http://localhost:5000  # Your service
+```
+
+**Deploy to GAR:**
+Only after local testing succeeds, push to GAR for Workbench deployment.
+
+### 5. Deployment Checklist
+
+- [ ] All files in `src/YOUR-APP/` committed to git
+- [ ] Dockerfile COPY paths relative to repo root
+- [ ] Python dependencies handle distutils conflicts
+- [ ] Ports exposed in Dockerfile and docker-compose.yaml
+- [ ] CMD/ENTRYPOINT doesn't break base image startup
+- [ ] Built and pushed to GAR (for production)
+- [ ] docker-compose.yaml uses `image:` not `build:` (for production)
+- [ ] README.md has deployment instructions
+
+---
+
+## Common Mistakes to Avoid
+
+### ❌ DON'T: Override ENTRYPOINT carelessly
+```dockerfile
+# This can break base image startup logic
+ENTRYPOINT ["/my/script.sh"]
+```
+
+### ✅ DO: Override CMD or use ENTRYPOINT wrapper carefully
+```dockerfile
+CMD ["/my/startup-script.sh"]
+# OR wrap ENTRYPOINT and preserve base with exec "$@"
+```
+
+### ❌ DON'T: Use --ignore-installed for all packages
+```dockerfile
+RUN pip install --no-cache-dir --ignore-installed -r requirements.txt
+# This reinstalls EVERYTHING, very slow
+```
+
+### ✅ DO: Only ignore specific problematic packages
+```dockerfile
+RUN pip install --no-cache-dir --ignore-installed blinker && \
+    pip install --no-cache-dir -r requirements.txt
+```
+
+### ❌ DON'T: Reference files outside src/ in COPY
+```dockerfile
+COPY ../other-dir/files /app/
+# Won't work - files must be in src/YOUR-APP/ or subdirectories
+```
+
+### ✅ DO: Keep all files in src/YOUR-APP/
+```dockerfile
+COPY src/YOUR-APP/app/ /home/jupyter/app/
+```
+
+### ❌ DON'T: Deploy with build: in production
+```yaml
+build:
+  context: ../..
+  dockerfile: src/YOUR-APP/Dockerfile
+# 30-40 min deployments
+```
+
+### ✅ DO: Use GAR images in production
+```yaml
+image: "us-central1-docker.pkg.dev/PROJECT/REPO/NAME:TAG"
+# 2-5 min deployments
+```
+
+---
+
+## Debugging Tips
+
+### Check Container Status
+```bash
+# On the VM
+docker ps -a
+docker logs application-server --tail 100
+```
+
+### Inspect Running Container
+```bash
+docker exec application-server ps aux
+docker exec application-server ls -la /home/jupyter/
+docker exec application-server cat /var/log/supervisor/flask-backend.err.log
+```
+
+### Verify Ports
+```bash
+docker exec application-server netstat -tlnp
+# Should show 8888 (Jupyter), 5000, 8000, etc.
+```
+
+### Check Supervisor
+```bash
+docker exec application-server sudo supervisorctl status
+docker exec application-server sudo supervisorctl restart all
+```
+
+### Common Error Patterns
+
+**"Port is empty"** → Jupyter not starting on 8888
+**"root_dir and file_to_run incompatible"** → CMD/ENTRYPOINT override broke Jupyter config
+**Container restart loop** → Main process exiting, check logs
+**"failed to calculate checksum"** → Files not in git repo
+
+---
+
 ## Summary
 
 This devcontainer configuration:
@@ -403,6 +729,31 @@ This devcontainer configuration:
 3. Uses supervisor to auto-start Flask backend and HTTP server
 4. Exposes three ports: 8888 (Jupyter), 5000 (Flask), 8000 (Web UI)
 5. Follows the official Workbench custom app pattern
-6. Requires building and pushing to artifact registry before deployment
+6. **Must be built and pushed to GAR for production use**
 
 The key innovation is using **supervisor** to run multiple background services (Flask + HTTP server) alongside the main JupyterLab process, making the demo fully self-contained and automatically starting.
+
+### Quick Start for Production
+
+1. **Build locally:**
+   ```bash
+   cd src/clinical-abstraction-demo
+   docker compose build
+   export TAG="us-central1-docker.pkg.dev/PROJECT/REPO/NAME:$(date +'%Y%m%d')"
+   docker tag clinical-abstraction-demo-app:latest ${TAG}
+   docker push ${TAG}
+   ```
+
+2. **Update docker-compose.yaml:**
+   Replace `build:` section with `image: "${TAG}"`
+
+3. **Commit and push to git**
+
+4. **Deploy in Workbench UI:**
+   - Repository URL: `git@github.com:verily-src/workbench-app-devcontainers.git`
+   - Branch: `your-branch`
+   - Folder path: `src/clinical-abstraction-demo`
+
+5. **Access:**
+   - JupyterLab: `https://workbench.verily.com/app/WORKSPACE-ID/`
+   - Web UI: `https://workbench.verily.com/app/WORKSPACE-ID/proxy/8000/index.html`
