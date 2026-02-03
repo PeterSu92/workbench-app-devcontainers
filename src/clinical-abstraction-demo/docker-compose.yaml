@@ -3,13 +3,8 @@ include:
 services:
   app:
     container_name: "application-server"
-    build:
-      context: ../..
-      dockerfile: src/clinical-abstraction-demo/Dockerfile
-      additional_contexts:
-        jupyter-extension-builder: service:jupyter-common-extension-builder
-    # NOTE: After building and pushing your custom image, replace the build section above with:
-    # image: "YOUR_REGISTRY_URI/clinical-abstraction-demo:TAG"
+    # Using pre-built image from GAR for fast deployments
+    image: "us-central1-docker.pkg.dev/wb-twinkly-turnip-8149/clin-abs-repo/test1:20260203"
     user: "jupyter"
     restart: always
     volumes:
