@@ -1,0 +1,55 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: John Martinez
+MRN: 1028
+DOB: 04/22/1961
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Palpitations and irregular heartbeat
+
+HISTORY OF PRESENT ILLNESS:
+70 y/o M with history of permanent atrial fibrillation presents for routine follow-up. Patient remains in atrial fibrillation. Compliant with rate control medications.
+
+PAST MEDICAL HISTORY:
+- Atrial Fibrillation (permanent)
+- Hypertension
+
+- Stroke/TIA 2022
+
+
+MEDICATIONS:
+- Warfarin (target INR 2-3)
+- Metoprolol 50 mg BID
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 124/89 mmHg
+- HR: 91 bpm (irregularly irregular)
+- RR: 17
+
+General: Well-appearing
+Cardiovascular: Irregularly irregular rhythm, no murmurs
+Respiratory: Clear bilaterally
+
+EKG:
+Atrial fibrillation with controlled ventricular response, rate 91 bpm
+
+ECHOCARDIOGRAM:
+- LVEF: 54%
+- Left atrial enlargement
+- No significant valvular disease
+
+ASSESSMENT:
+Permanent atrial fibrillation, adequately rate controlled
+CHA2DS2-VASc score: 5
+
+PLAN:
+1. Continue rate control medications
+2. Continue anticoagulation
+3. Continue medical management
+4. Follow-up in 1 months
+
+Dr. Kevin Park
+Electrophysiology

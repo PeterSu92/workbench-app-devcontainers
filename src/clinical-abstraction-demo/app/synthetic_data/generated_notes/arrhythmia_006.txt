@@ -1,0 +1,55 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Margaret Williams
+MRN: 1031
+DOB: 12/30/1953
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for atrial fibrillation
+
+HISTORY OF PRESENT ILLNESS:
+73 y/o F with history of permanent atrial fibrillation presents complaining of palpitations and lightheadedness. Patient remains in atrial fibrillation. Reports medication non-compliance.
+
+PAST MEDICAL HISTORY:
+- Atrial Fibrillation (permanent)
+- Hypertension
+- Heart Failure (HFpEF)
+
+- Diabetes
+
+MEDICATIONS:
+- Apixaban 5 mg BID
+- Metoprolol 200 mg BID
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 121/70 mmHg
+- HR: 66 bpm (irregularly irregular)
+- RR: 15
+
+General: Well-appearing
+Cardiovascular: Irregularly irregular rhythm, no murmurs
+Respiratory: Clear bilaterally
+
+EKG:
+Atrial fibrillation with controlled ventricular response, rate 66 bpm
+
+ECHOCARDIOGRAM:
+- LVEF: 64%
+- Left atrial enlargement
+- No significant valvular disease
+
+ASSESSMENT:
+Permanent atrial fibrillation, adequately rate controlled
+CHA2DS2-VASc score: 3
+
+PLAN:
+1. Continue rate control medications
+2. Continue anticoagulation
+3. Continue medical management
+4. Follow-up in 1 months
+
+Dr. Kevin Park
+Electrophysiology

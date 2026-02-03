@@ -1,0 +1,36 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Linda Lee
+MRN: 1034
+DOB: 08/24/1945
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Dyspnea on exertion
+
+HISTORY OF PRESENT ILLNESS:
+86 y/o F with history of aortic stenosis presents for evaluation. Reports worsening shortness of breath with activity.
+
+PAST MEDICAL HISTORY:
+- Aortic Stenosis
+- Hypertension
+- Heart Failure
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 153/84 mmHg
+- HR: 83 bpm
+
+Cardiovascular: Harsh systolic ejection murmur at right upper sternal border radiating to carotids
+
+ECHOCARDIOGRAM:
+- Aortic Stenosis: Severe
+- LVEF: 41%
+- Peak gradient: 48 mmHg
+
+PLAN:
+1. Refer to cardiac surgery for valve replacement
+2. Follow-up in 12 months
+
+Dr. Patricia Kim
+Cardiology

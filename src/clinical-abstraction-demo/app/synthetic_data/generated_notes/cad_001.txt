@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Karen Davis
+MRN: 1016
+DOB: 10/27/1960
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up post-cardiac catheterization
+
+HISTORY OF PRESENT ILLNESS:
+71 y/o M with history of coronary artery disease presents with typical anginal symptoms. Symptoms occur with moderate exertion, relieved by rest. Patient has history of MI in 2021. 
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+
+
+- Hypertension
+- Hyperlipidemia
+
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 40 mg daily
+- Metoprolol 100 mg BID
+- Clopidogrel 75 mg daily
+- Lisinopril 20 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 137/75 mmHg
+- HR: 55 bpm
+- RR: 13
+- O2 Sat: 96% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 119 mg/dL
+- HDL: 43 mg/dL
+- Triglycerides: 197 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 53%
+- Regional wall motion abnormalities in inferior wall
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Continue medical management
+4. Lifestyle modifications
+5. Follow-up in 6 months
+
+Dr. Jennifer Lee
+Cardiology

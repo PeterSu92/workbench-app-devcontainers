@@ -1,0 +1,41 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Jessica White
+MRN: 1068
+DOB: 02/18/1971
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Colorectal adenocarcinoma (descending colon), Stage IIIC
+
+HISTORY OF PRESENT ILLNESS:
+65 y/o F with recent diagnosis of colorectal cancer. Patient underwent colonoscopy for screening which revealed mass in descending colon.
+
+PATHOLOGY:
+- Location: descending colon
+- Grade: well differentiated
+- Tumor size: 7.0 cm
+- Microsatellite status: MSI-Low
+- KRAS: wild type
+- NRAS: wild type
+- BRAF: wild type
+- Lymph nodes: 1 positive / 16 examined
+
+PERFORMANCE STATUS:
+ECOG 0
+
+CEA: 60.2 ng/mL
+
+STAGING:
+- No distant metastases
+
+
+PLAN:
+1. Neoadjuvant FOLFOX chemotherapy
+2. Adjuvant chemotherapy (FOLFOX or CAPOX)
+3. Genetic counseling for Lynch syndrome
+4. Nutritional support
+5. Follow-up in 2 weeks
+
+Dr. Robert Kim
+Gastrointestinal Oncology

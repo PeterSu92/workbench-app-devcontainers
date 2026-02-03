@@ -1,0 +1,41 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Joseph Lopez
+MRN: 1067
+DOB: 07/16/1975
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Colorectal adenocarcinoma (descending colon), Stage I
+
+HISTORY OF PRESENT ILLNESS:
+64 y/o M with recent diagnosis of colorectal cancer. Patient underwent colonoscopy for evaluation of rectal bleeding which revealed mass in descending colon.
+
+PATHOLOGY:
+- Location: descending colon
+- Grade: moderately differentiated
+- Tumor size: 3.3 cm
+- Microsatellite status: MSI-Low
+- KRAS: mutation detected
+- NRAS: mutation detected
+- BRAF: wild type
+- Lymph nodes: 5 positive / 14 examined
+
+PERFORMANCE STATUS:
+ECOG 1
+
+CEA: 35.3 ng/mL
+
+STAGING:
+- No distant metastases
+
+
+PLAN:
+1. Surgical resection planned
+2. Palliative chemotherapy with bevacizumab
+3. Genetic counseling for Lynch syndrome
+4. Nutritional support
+5. Follow-up in 2 weeks
+
+Dr. Patricia Nguyen
+Gastrointestinal Oncology

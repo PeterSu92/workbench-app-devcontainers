@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Susan Rodriguez
+MRN: 1017
+DOB: 01/09/1950
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Chest pain with exertion
+
+HISTORY OF PRESENT ILLNESS:
+72 y/o M with history of coronary artery disease presents with atypical chest discomfort. Denies current chest pain. Patient has history of stable angina. 
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+- s/p PCI with stent placement to LAD 2025
+
+- Hypertension
+- Hyperlipidemia
+- Type 2 Diabetes
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 80 mg daily
+- Metoprolol 100 mg BID
+- Clopidogrel 75 mg daily
+- Lisinopril 10 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 111/83 mmHg
+- HR: 72 bpm
+- RR: 15
+- O2 Sat: 98% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 76 mg/dL
+- HDL: 59 mg/dL
+- Triglycerides: 194 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 60%
+- Regional wall motion abnormalities in lateral wall
+
+PLAN:
+1. Continue statin therapy
+2. Continue antiplatelet therapy
+3. Continue medical management
+4. Lifestyle modifications
+5. Follow-up in 3 months
+
+Dr. David Martinez
+Cardiology

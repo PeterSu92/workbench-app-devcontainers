@@ -1,0 +1,798 @@
+[
+  {
+    "filename": "cardio_heart_failure_001.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "II",
+      "ejection_fraction": 29,
+      "bnp": 385,
+      "blood_pressure_systolic": 103,
+      "blood_pressure_diastolic": 93,
+      "heart_rate": 107,
+      "creatinine": 2.3
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_002.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "I",
+      "ejection_fraction": 39,
+      "bnp": 261,
+      "blood_pressure_systolic": 160,
+      "blood_pressure_diastolic": 68,
+      "heart_rate": 100,
+      "creatinine": 1.9
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_003.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "II",
+      "ejection_fraction": 17,
+      "bnp": 1748,
+      "blood_pressure_systolic": 130,
+      "blood_pressure_diastolic": 75,
+      "heart_rate": 77,
+      "creatinine": 0.9
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_004.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "I",
+      "ejection_fraction": 49,
+      "bnp": 1637,
+      "blood_pressure_systolic": 124,
+      "blood_pressure_diastolic": 99,
+      "heart_rate": 101,
+      "creatinine": 1.4
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_005.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "I",
+      "ejection_fraction": 46,
+      "bnp": 1771,
+      "blood_pressure_systolic": 98,
+      "blood_pressure_diastolic": 98,
+      "heart_rate": 94,
+      "creatinine": 2.1
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_006.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "III",
+      "ejection_fraction": 19,
+      "bnp": 1152,
+      "blood_pressure_systolic": 120,
+      "blood_pressure_diastolic": 67,
+      "heart_rate": 102,
+      "creatinine": 1.6
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_007.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "IV",
+      "ejection_fraction": 50,
+      "bnp": 300,
+      "blood_pressure_systolic": 96,
+      "blood_pressure_diastolic": 91,
+      "heart_rate": 94,
+      "creatinine": 2.2
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_008.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "II",
+      "ejection_fraction": 18,
+      "bnp": 1140,
+      "blood_pressure_systolic": 100,
+      "blood_pressure_diastolic": 61,
+      "heart_rate": 64,
+      "creatinine": 1.8
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_009.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "III",
+      "ejection_fraction": 23,
+      "bnp": 814,
+      "blood_pressure_systolic": 98,
+      "blood_pressure_diastolic": 65,
+      "heart_rate": 83,
+      "creatinine": 1.3
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_010.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "II",
+      "ejection_fraction": 55,
+      "bnp": 636,
+      "blood_pressure_systolic": 110,
+      "blood_pressure_diastolic": 97,
+      "heart_rate": 88,
+      "creatinine": 1.7
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_011.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "III",
+      "ejection_fraction": 41,
+      "bnp": 1742,
+      "blood_pressure_systolic": 121,
+      "blood_pressure_diastolic": 67,
+      "heart_rate": 70,
+      "creatinine": 2.1
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_012.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "IV",
+      "ejection_fraction": 37,
+      "bnp": 1592,
+      "blood_pressure_systolic": 130,
+      "blood_pressure_diastolic": 77,
+      "heart_rate": 98,
+      "creatinine": 2.5
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_013.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "IV",
+      "ejection_fraction": 26,
+      "bnp": 1360,
+      "blood_pressure_systolic": 128,
+      "blood_pressure_diastolic": 75,
+      "heart_rate": 95,
+      "creatinine": 2.2
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_014.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "IV",
+      "ejection_fraction": 40,
+      "bnp": 599,
+      "blood_pressure_systolic": 108,
+      "blood_pressure_diastolic": 91,
+      "heart_rate": 104,
+      "creatinine": 0.8
+    }
+  },
+  {
+    "filename": "cardio_heart_failure_015.txt",
+    "scenario": "cardiology_heart_failure",
+    "ground_truth": {
+      "nyha_class": "IV",
+      "ejection_fraction": 19,
+      "bnp": 1561,
+      "blood_pressure_systolic": 126,
+      "blood_pressure_diastolic": 65,
+      "heart_rate": 77,
+      "creatinine": 1.4
+    }
+  },
+  {
+    "filename": "cardio_cad_001.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 53,
+      "blood_pressure_systolic": 137,
+      "blood_pressure_diastolic": 75,
+      "heart_rate": 55,
+      "ldl_cholesterol": 119,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_002.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 60,
+      "blood_pressure_systolic": 111,
+      "blood_pressure_diastolic": 83,
+      "heart_rate": 72,
+      "ldl_cholesterol": 76,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_003.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 54,
+      "blood_pressure_systolic": 146,
+      "blood_pressure_diastolic": 81,
+      "heart_rate": 84,
+      "ldl_cholesterol": 118,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_004.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 65,
+      "blood_pressure_systolic": 127,
+      "blood_pressure_diastolic": 79,
+      "heart_rate": 80,
+      "ldl_cholesterol": 138,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_005.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 47,
+      "blood_pressure_systolic": 125,
+      "blood_pressure_diastolic": 83,
+      "heart_rate": 68,
+      "ldl_cholesterol": 132,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_006.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 50,
+      "blood_pressure_systolic": 122,
+      "blood_pressure_diastolic": 66,
+      "heart_rate": 78,
+      "ldl_cholesterol": 131,
+      "troponin": 0.299
+    }
+  },
+  {
+    "filename": "cardio_cad_007.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 57,
+      "blood_pressure_systolic": 141,
+      "blood_pressure_diastolic": 62,
+      "heart_rate": 73,
+      "ldl_cholesterol": 150,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_008.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 47,
+      "blood_pressure_systolic": 120,
+      "blood_pressure_diastolic": 67,
+      "heart_rate": 60,
+      "ldl_cholesterol": 140,
+      "troponin": 0.011
+    }
+  },
+  {
+    "filename": "cardio_cad_009.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 54,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 63,
+      "heart_rate": 69,
+      "ldl_cholesterol": 158,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_cad_010.txt",
+    "scenario": "cardiology_cad",
+    "ground_truth": {
+      "ejection_fraction": 60,
+      "blood_pressure_systolic": 115,
+      "blood_pressure_diastolic": 75,
+      "heart_rate": 66,
+      "ldl_cholesterol": 122,
+      "troponin": 0.0
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_001.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "permanent",
+      "heart_rate": 68,
+      "ejection_fraction": 59,
+      "chadsvasc_score": 5
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_002.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "permanent",
+      "heart_rate": 77,
+      "ejection_fraction": 63,
+      "chadsvasc_score": 5
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_003.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "permanent",
+      "heart_rate": 91,
+      "ejection_fraction": 54,
+      "chadsvasc_score": 5
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_004.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "permanent",
+      "heart_rate": 69,
+      "ejection_fraction": 65,
+      "chadsvasc_score": 2
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_005.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "persistent",
+      "heart_rate": 121,
+      "ejection_fraction": 52,
+      "chadsvasc_score": 4
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_006.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "permanent",
+      "heart_rate": 66,
+      "ejection_fraction": 64,
+      "chadsvasc_score": 3
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_007.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "permanent",
+      "heart_rate": 69,
+      "ejection_fraction": 57,
+      "chadsvasc_score": 5
+    }
+  },
+  {
+    "filename": "cardio_arrhythmia_008.txt",
+    "scenario": "cardiology_arrhythmia",
+    "ground_truth": {
+      "rhythm": "atrial_fibrillation",
+      "af_type": "persistent",
+      "heart_rate": 86,
+      "ejection_fraction": 57,
+      "chadsvasc_score": 5
+    }
+  },
+  {
+    "filename": "cardio_valvular_001.txt",
+    "scenario": "cardiology_valvular",
+    "ground_truth": {
+      "valve_disease": "aortic_stenosis",
+      "valve_severity": "severe",
+      "ejection_fraction": 41
+    }
+  },
+  {
+    "filename": "cardio_valvular_002.txt",
+    "scenario": "cardiology_valvular",
+    "ground_truth": {
+      "valve_disease": "mitral_regurgitation",
+      "valve_severity": "mild",
+      "ejection_fraction": 68
+    }
+  },
+  {
+    "filename": "cardio_valvular_003.txt",
+    "scenario": "cardiology_valvular",
+    "ground_truth": {
+      "valve_disease": "aortic_stenosis",
+      "valve_severity": "severe",
+      "ejection_fraction": 46
+    }
+  },
+  {
+    "filename": "cardio_valvular_004.txt",
+    "scenario": "cardiology_valvular",
+    "ground_truth": {
+      "valve_disease": "mitral_regurgitation",
+      "valve_severity": "mild",
+      "ejection_fraction": 54
+    }
+  },
+  {
+    "filename": "cardio_valvular_005.txt",
+    "scenario": "cardiology_valvular",
+    "ground_truth": {
+      "valve_disease": "aortic_stenosis",
+      "valve_severity": "moderate",
+      "ejection_fraction": 67
+    }
+  },
+  {
+    "filename": "cardio_hypertension_001.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 144,
+      "blood_pressure_diastolic": 95,
+      "heart_rate": 60
+    }
+  },
+  {
+    "filename": "cardio_hypertension_002.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 149,
+      "blood_pressure_diastolic": 95,
+      "heart_rate": 63
+    }
+  },
+  {
+    "filename": "cardio_hypertension_003.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 132,
+      "blood_pressure_diastolic": 102,
+      "heart_rate": 71
+    }
+  },
+  {
+    "filename": "cardio_hypertension_004.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 159,
+      "blood_pressure_diastolic": 82,
+      "heart_rate": 81
+    }
+  },
+  {
+    "filename": "cardio_hypertension_005.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 151,
+      "blood_pressure_diastolic": 104,
+      "heart_rate": 64
+    }
+  },
+  {
+    "filename": "cardio_hypertension_006.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 167,
+      "blood_pressure_diastolic": 90,
+      "heart_rate": 60
+    }
+  },
+  {
+    "filename": "cardio_hypertension_007.txt",
+    "scenario": "cardiology_hypertension",
+    "ground_truth": {
+      "blood_pressure_systolic": 163,
+      "blood_pressure_diastolic": 89,
+      "heart_rate": 74
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_001.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IB",
+      "her2_status": "negative",
+      "er_status": "negative",
+      "pr_status": "negative",
+      "ecog_performance_status": 2
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_002.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIB",
+      "her2_status": "negative",
+      "er_status": "negative",
+      "pr_status": "negative",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_003.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIIB",
+      "her2_status": "negative",
+      "er_status": "positive",
+      "pr_status": "positive",
+      "ecog_performance_status": 2
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_004.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIA",
+      "her2_status": "positive",
+      "er_status": "positive",
+      "pr_status": "positive",
+      "ecog_performance_status": 2
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_005.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIIA",
+      "her2_status": "positive",
+      "er_status": "negative",
+      "pr_status": "positive",
+      "ecog_performance_status": 0
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_006.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIIB",
+      "her2_status": "positive",
+      "er_status": "negative",
+      "pr_status": "negative",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_007.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIIB",
+      "her2_status": "negative",
+      "er_status": "negative",
+      "pr_status": "negative",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_008.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IB",
+      "her2_status": "negative",
+      "er_status": "positive",
+      "pr_status": "positive",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_009.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IIB",
+      "her2_status": "positive",
+      "er_status": "negative",
+      "pr_status": "positive",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_breast_cancer_010.txt",
+    "scenario": "oncology_breast_cancer",
+    "ground_truth": {
+      "cancer_type": "breast_cancer",
+      "cancer_stage": "IA",
+      "her2_status": "negative",
+      "er_status": "positive",
+      "pr_status": "positive",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_001.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIA",
+      "histology": "small cell carcinoma",
+      "ecog_performance_status": 1,
+      "pdl1_expression": 30
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_002.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIB",
+      "histology": "small cell carcinoma",
+      "ecog_performance_status": 2,
+      "pdl1_expression": 80
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_003.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IA",
+      "histology": "squamous cell carcinoma",
+      "ecog_performance_status": 2,
+      "pdl1_expression": 9
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_004.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIA",
+      "histology": "small cell carcinoma",
+      "ecog_performance_status": 3,
+      "pdl1_expression": 64
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_005.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIB",
+      "histology": "small cell carcinoma",
+      "ecog_performance_status": 1,
+      "pdl1_expression": 46
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_006.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIIB",
+      "histology": "squamous cell carcinoma",
+      "ecog_performance_status": 2,
+      "pdl1_expression": 32
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_007.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIA",
+      "histology": "small cell carcinoma",
+      "ecog_performance_status": 3,
+      "pdl1_expression": 82
+    }
+  },
+  {
+    "filename": "onc_lung_cancer_008.txt",
+    "scenario": "oncology_lung_cancer",
+    "ground_truth": {
+      "cancer_type": "lung_cancer",
+      "cancer_stage": "IIA",
+      "histology": "adenocarcinoma",
+      "ecog_performance_status": 1,
+      "pdl1_expression": 43
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_001.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "IIA",
+      "tumor_location": "sigmoid colon",
+      "msi_status": "MSS",
+      "ecog_performance_status": 0
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_002.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "IIB",
+      "tumor_location": "transverse colon",
+      "msi_status": "MSS",
+      "ecog_performance_status": 0
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_003.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "IIIA",
+      "tumor_location": "sigmoid colon",
+      "msi_status": "MSI-High",
+      "ecog_performance_status": 2
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_004.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "I",
+      "tumor_location": "descending colon",
+      "msi_status": "MSI-Low",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_005.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "IIIC",
+      "tumor_location": "descending colon",
+      "msi_status": "MSI-Low",
+      "ecog_performance_status": 0
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_006.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "IIIC",
+      "tumor_location": "cecum",
+      "msi_status": "MSI-High",
+      "ecog_performance_status": 1
+    }
+  },
+  {
+    "filename": "onc_colorectal_cancer_007.txt",
+    "scenario": "oncology_colorectal_cancer",
+    "ground_truth": {
+      "cancer_type": "colorectal_cancer",
+      "cancer_stage": "IIIA",
+      "tumor_location": "cecum",
+      "msi_status": "MSI-Low",
+      "ecog_performance_status": 2
+    }
+  }
+]

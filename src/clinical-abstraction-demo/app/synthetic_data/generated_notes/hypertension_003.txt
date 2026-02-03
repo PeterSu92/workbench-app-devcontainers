@@ -1,0 +1,40 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Jessica Lee
+MRN: 1041
+DOB: 09/27/1959
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Hypertension management
+
+HISTORY OF PRESENT ILLNESS:
+59 y/o M with history of hypertension presents for follow-up. Reports improved blood pressure control with current regimen.
+
+PAST MEDICAL HISTORY:
+- Hypertension
+- Type 2 Diabetes
+- Chronic Kidney Disease Stage 3
+
+MEDICATIONS:
+- Lisinopril 20 mg daily
+- Amlodipine 10 mg daily
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 132/102 mmHg
+- HR: 71 bpm
+- BMI: 34.8
+
+General: Well-appearing
+Cardiovascular: Regular rate and rhythm
+
+PLAN:
+1. Continue current regimen
+2. Home blood pressure monitoring
+3. Lifestyle modifications
+4. Follow-up in 3 months
+
+Dr. Michelle Chang
+Cardiology

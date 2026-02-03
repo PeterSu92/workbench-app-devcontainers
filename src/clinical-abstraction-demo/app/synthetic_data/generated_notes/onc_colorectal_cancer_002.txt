@@ -1,0 +1,41 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Margaret Thomas
+MRN: 1065
+DOB: 05/17/1968
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Colorectal adenocarcinoma (transverse colon), Stage IIB
+
+HISTORY OF PRESENT ILLNESS:
+62 y/o M with recent diagnosis of colorectal cancer. Patient underwent colonoscopy for evaluation of rectal bleeding which revealed mass in transverse colon.
+
+PATHOLOGY:
+- Location: transverse colon
+- Grade: moderately differentiated
+- Tumor size: 4.8 cm
+- Microsatellite status: MSS
+- KRAS: mutation detected
+- NRAS: wild type
+- BRAF: wild type
+- Lymph nodes: 2 positive / 15 examined
+
+PERFORMANCE STATUS:
+ECOG 0
+
+CEA: 200.5 ng/mL
+
+STAGING:
+- No distant metastases
+
+
+PLAN:
+1. Surgical resection planned
+2. Palliative chemotherapy with bevacizumab
+3. Genetic counseling for Lynch syndrome
+4. Nutritional support
+5. Follow-up in 2 weeks
+
+Dr. Robert Kim
+Gastrointestinal Oncology

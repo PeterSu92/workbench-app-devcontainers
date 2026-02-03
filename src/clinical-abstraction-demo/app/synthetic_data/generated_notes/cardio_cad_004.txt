@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Robert Anderson
+MRN: 1019
+DOB: 05/23/1970
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Chest pain with exertion
+
+HISTORY OF PRESENT ILLNESS:
+74 y/o F with history of coronary artery disease presents with atypical chest discomfort. Symptoms occur with moderate exertion, relieved by rest. Patient has history of MI in 2025. Currently compliant with dual antiplatelet therapy.
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+- s/p PCI with stent placement to LAD 2024
+
+- Hypertension
+- Hyperlipidemia
+
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 80 mg daily
+- Metoprolol 25 mg BID
+- Clopidogrel 75 mg daily
+- Lisinopril 20 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 127/79 mmHg
+- HR: 80 bpm
+- RR: 13
+- O2 Sat: 99% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 138 mg/dL
+- HDL: 41 mg/dL
+- Triglycerides: 190 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 65%
+- No regional wall motion abnormalities
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Continue medical management
+4. Lifestyle modifications
+5. Follow-up in 6 months
+
+Dr. Robert Thompson
+Cardiology

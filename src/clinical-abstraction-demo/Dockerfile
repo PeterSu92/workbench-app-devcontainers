@@ -13,9 +13,8 @@ RUN sudo apt-get update && sudo apt-get install -y \
 RUN mkdir -p /home/jupyter/clinical-abstraction-demo
 
 # Copy the clinical abstraction demo application
-# Note: Build this from the repo root with: docker build -f src/clinical-abstraction-demo/Dockerfile .
-# Or adjust COPY path based on your build context
-COPY clinical-abstraction-demo/clinical-abstraction-demo/ /home/jupyter/clinical-abstraction-demo/
+# Build context is repo root (../..), so path is relative to that
+COPY src/clinical-abstraction-demo/app/ /home/jupyter/clinical-abstraction-demo/
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r /home/jupyter/clinical-abstraction-demo/requirements.txt

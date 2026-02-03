@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Karen Harris
+MRN: 1024
+DOB: 05/04/1949
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Chest pain with exertion
+
+HISTORY OF PRESENT ILLNESS:
+64 y/o M with history of coronary artery disease presents with atypical chest discomfort. Symptoms occur with moderate exertion, relieved by rest. Patient has history of stable angina. 
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+
+
+- Hypertension
+- Hyperlipidemia
+- Type 2 Diabetes
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 40 mg daily
+- Metoprolol 100 mg BID
+
+- Lisinopril 10 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 138/63 mmHg
+- HR: 69 bpm
+- RR: 18
+- O2 Sat: 98% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 158 mg/dL
+- HDL: 53 mg/dL
+- Triglycerides: 110 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 54%
+- No regional wall motion abnormalities
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Consider stress test
+4. Lifestyle modifications
+5. Follow-up in 6 months
+
+Dr. Jennifer Lee
+Cardiology

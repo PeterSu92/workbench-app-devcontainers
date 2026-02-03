@@ -1,0 +1,59 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: John Moore
+MRN: 1020
+DOB: 11/15/1945
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Chest pain with exertion
+
+HISTORY OF PRESENT ILLNESS:
+60 y/o M with history of coronary artery disease presents with atypical chest discomfort. Symptoms occur with moderate exertion, relieved by rest. Patient has history of MI in 2023. Currently compliant with dual antiplatelet therapy.
+
+PAST MEDICAL HISTORY:
+- Coronary Artery Disease
+
+
+- Hypertension
+- Hyperlipidemia
+
+
+MEDICATIONS:
+- Aspirin 81 mg daily
+- Atorvastatin 80 mg daily
+- Metoprolol 100 mg BID
+
+- Lisinopril 20 mg daily
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 125/83 mmHg
+- HR: 68 bpm
+- RR: 17
+- O2 Sat: 98% on room air
+
+General: Well-appearing, no acute distress
+Cardiovascular: Regular rate and rhythm, no murmurs
+Respiratory: Clear to auscultation bilaterally
+Extremities: No edema, pulses intact
+
+LABS:
+- Troponin: 0.0 ng/mL (negative)
+- LDL: 132 mg/dL
+- HDL: 46 mg/dL
+- Triglycerides: 216 mg/dL
+
+ECHOCARDIOGRAM:
+- LVEF: 47%
+- Regional wall motion abnormalities in inferior wall
+
+PLAN:
+1. Increase statin therapy
+2. Continue antiplatelet therapy
+3. Consider stress test
+4. Lifestyle modifications
+5. Follow-up in 3 months
+
+Dr. Jennifer Lee
+Cardiology

@@ -1,0 +1,66 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: William Johnson
+MRN: 1012
+DOB: 04/16/1967
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Worsening shortness of breath and fatigue
+
+HISTORY OF PRESENT ILLNESS:
+77 y/o M with history of heart failure presents for urgent evaluation. Symptoms at rest. Severe limitations. Reports difficulty climbing stairs and performing daily activities. Denies chest pain or palpitations.
+
+PAST MEDICAL HISTORY:
+- Congestive Heart Failure (CHF), diagnosed 5 years ago
+- Hypertension
+- Type 2 Diabetes Mellitus
+
+
+
+MEDICATIONS:
+- Furosemide 80 mg daily
+- Carvedilol 25 mg BID
+- Lisinopril 40 mg daily
+
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 130/77 mmHg
+- HR: 98 bpm
+- RR: 17
+- O2 Sat: 94% on room air
+- Weight: 205 lbs
+
+General: Alert and oriented, appears fatigued and
+Cardiovascular: Regular rhythm, S3 gallop present, JVD at 10 cm
+Respiratory: Bilateral rales at bases
+Extremities: none pitting edema bilateral lower extremities
+
+ASSESSMENT:
+NYHA Class IV heart failure with reduced ejection fraction (HFrEF). Evidence of volume overload.
+
+LABS (collected 01/31/2026):
+- BNP: 1592 pg/mL (elevated)
+- Creatinine: 2.5 mg/dL
+- Sodium: 140 mEq/L
+- Potassium: 4.5 mEq/L
+- Hemoglobin: 14.6 g/dL
+
+ECHOCARDIOGRAM (01/31/2026):
+- Left ventricular ejection fraction (LVEF): 37%
+- Severe left ventricular dilation
+- Moderate mitral regurgitation
+- Dilated left atrium
+
+PLAN:
+1. Increase furosemide to 80 mg BID
+2. Continue carvedilol
+3. Continue ACE inhibitor
+4. Strict fluid restriction 2L/day
+5. Daily weights
+6. Follow-up in 2 weeks
+
+Dr. Lisa Anderson
+Cardiology

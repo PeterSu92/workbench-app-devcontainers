@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Elizabeth Williams
+MRN: 1054
+DOB: 01/24/1969
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IIB
+
+HISTORY OF PRESENT ILLNESS:
+69 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 3.1 cm
+- Grade: 3
+- ER: negative (81%)
+- PR: positive (53%)
+- HER2: positive
+- Ki-67: 23%
+- Lymph nodes: 0 positive nodes
+
+PERFORMANCE STATUS:
+ECOG 1
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Post-surgical changes
+Lymph nodes: No palpable axillary lymphadenopathy
+
+TREATMENT PLAN:
+1. Neoadjuvant chemotherapy - AC-T regimen
+2. Trastuzumab (Herceptin) given HER2+ status
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Jennifer Lee
+Medical Oncology

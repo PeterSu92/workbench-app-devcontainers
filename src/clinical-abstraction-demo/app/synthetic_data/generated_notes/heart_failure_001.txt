@@ -1,0 +1,66 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Christopher Brown
+MRN: 1001
+DOB: 09/27/1970
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Follow-up for heart failure management
+
+HISTORY OF PRESENT ILLNESS:
+66 y/o M with history of heart failure presents for routine evaluation. Mild symptoms with ordinary activity. Comfortable at rest. Generally doing well with current medications. Denies chest pain but notes occasional palpitations.
+
+PAST MEDICAL HISTORY:
+- Congestive Heart Failure (CHF), diagnosed 1 years ago
+- Hypertension
+
+
+
+
+MEDICATIONS:
+- Furosemide 40 mg daily
+- Carvedilol 6.25 mg BID
+- Lisinopril 20 mg daily
+
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 103/93 mmHg
+- HR: 107 bpm
+- RR: 14
+- O2 Sat: 98% on room air
+- Weight: 170 lbs
+
+General: Alert and oriented, appears
+Cardiovascular: Regular rhythm, S3 gallop present, JVD not elevated
+Respiratory: Clear to auscultation bilaterally
+Extremities: none pitting edema bilateral lower extremities
+
+ASSESSMENT:
+NYHA Class II heart failure with reduced ejection fraction (HFrEF). Currently compensated.
+
+LABS (collected 01/31/2026):
+- BNP: 385 pg/mL (normal to mildly elevated)
+- Creatinine: 2.3 mg/dL
+- Sodium: 140 mEq/L
+- Potassium: 3.9 mEq/L
+- Hemoglobin: 13.9 g/dL
+
+ECHOCARDIOGRAM (01/31/2026):
+- Left ventricular ejection fraction (LVEF): 29%
+- Moderate left ventricular dilation
+- Mild mitral regurgitation
+- Dilated left atrium
+
+PLAN:
+1. Continue current diuretic dose
+2. Uptitrate carvedilol
+3. Continue ACE inhibitor
+4. Maintain current fluid intake
+5. Daily weights
+6. Follow-up in 2 weeks
+
+Dr. Lisa Anderson
+Cardiology

@@ -1,0 +1,39 @@
+ONCOLOGY CONSULTATION NOTE
+
+Patient: Nancy Williams
+MRN: 1052
+DOB: 07/02/1972
+Visit Date: 01/31/2026
+
+DIAGNOSIS:
+Invasive ductal carcinoma of the breast, Stage IIIB
+
+HISTORY OF PRESENT ILLNESS:
+67 y/o F presenting for oncology consultation following recent diagnosis of breast cancer. Patient underwent diagnostic mammogram which showed suspicious mass, followed by core needle biopsy confirming invasive ductal carcinoma.
+
+PATHOLOGY:
+- Tumor size: 3.9 cm
+- Grade: 1
+- ER: negative (44%)
+- PR: negative (55%)
+- HER2: negative
+- Ki-67: 12%
+- Lymph nodes: 7 positive nodes
+
+PERFORMANCE STATUS:
+ECOG 1
+
+PHYSICAL EXAMINATION:
+General: Appears fatigued
+Breast: Post-surgical changes
+Lymph nodes: No palpable axillary lymphadenopathy
+
+TREATMENT PLAN:
+1. Neoadjuvant chemotherapy - AC-T regimen
+2. Chemotherapy planned
+3. Genetic counseling and BRCA testing
+4. Radiation oncology consultation
+5. Follow-up in 2 weeks
+
+Dr. Emily Roberts
+Medical Oncology

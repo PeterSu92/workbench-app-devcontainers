@@ -1,0 +1,40 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Thomas Davis
+MRN: 1045
+DOB: 03/11/1983
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Hypertension management
+
+HISTORY OF PRESENT ILLNESS:
+63 y/o F with history of hypertension presents for follow-up. Blood pressures at home range 140-160/85-95.
+
+PAST MEDICAL HISTORY:
+- Hypertension
+- Type 2 Diabetes
+
+
+MEDICATIONS:
+- Lisinopril 20 mg daily
+- Amlodipine 5 mg daily
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 163/89 mmHg
+- HR: 74 bpm
+- BMI: 34.0
+
+General: Well-appearing
+Cardiovascular: Regular rate and rhythm
+
+PLAN:
+1. Increase antihypertensive medications
+2. Home blood pressure monitoring
+3. Lifestyle modifications
+4. Follow-up in 1 months
+
+Dr. Michelle Chang
+Cardiology

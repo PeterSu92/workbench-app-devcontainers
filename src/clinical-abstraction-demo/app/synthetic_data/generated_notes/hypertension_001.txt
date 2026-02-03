@@ -1,0 +1,40 @@
+CARDIOLOGY CONSULTATION NOTE
+
+Patient: Christopher Lopez
+MRN: 1039
+DOB: 03/04/1979
+Visit Date: 01/31/2026
+
+CHIEF COMPLAINT:
+Hypertension management
+
+HISTORY OF PRESENT ILLNESS:
+77 y/o F with history of hypertension presents for follow-up. Blood pressures at home range 140-160/85-95.
+
+PAST MEDICAL HISTORY:
+- Hypertension
+
+
+
+MEDICATIONS:
+- Lisinopril 40 mg daily
+- Amlodipine 5 mg daily
+
+
+PHYSICAL EXAMINATION:
+Vital Signs:
+- BP: 144/95 mmHg
+- HR: 60 bpm
+- BMI: 29.1
+
+General: Well-appearing
+Cardiovascular: Regular rate and rhythm
+
+PLAN:
+1. Increase antihypertensive medications
+2. Home blood pressure monitoring
+3. Lifestyle modifications
+4. Follow-up in 3 months
+
+Dr. Daniel Brown
+Cardiology
