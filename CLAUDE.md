@@ -57,6 +57,21 @@ For a simple web app (Flask, FastAPI, etc.), follow the `vscode` or `r-analysis`
 
 The `workbench-jupyter` base image is only needed if you actually want JupyterLab. Using it for non-Jupyter apps adds unnecessary complexity (Jupyter config conflicts, supervisor for multiple processes, etc.).
 
+## Current Work: Clinical Abstraction Demo (branch: yp_ac_clin)
+
+Simplified Flask app deployment. Key files:
+- `src/clinical-abstraction-demo/Dockerfile` - Simple python:3.11-slim, single Flask process
+- `src/clinical-abstraction-demo/app/extraction_backend_openai.py` - Serves UI + API on port 8000
+
+**Status:** Removed failing gcloud feature. Ready to test deploy.
+
+**To test:** Deploy in Workbench UI with:
+- Repository: `git@github.com:verily-src/workbench-app-devcontainers.git`
+- Branch: `yp_ac_clin`
+- Folder: `src/clinical-abstraction-demo`
+
+**If it fails:** Check logs on VM at `/home/<user>/.workbench/post-startup-output.txt` or `docker logs application-server`.
+
 ## Known Issues
 
 ### Google Cloud CLI feature fails on newer Debian
