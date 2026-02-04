@@ -40,12 +40,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__, static_folder=SCRIPT_DIR, static_url_path='/static')
 
 # Enable CORS with specific configuration for Workbench
-CORS(app,
-     origins=["*"],
-     allow_headers=["Content-Type", "Authorization"],
-     expose_headers=["Content-Type"],
-     supports_credentials=True,
-     send_wildcard=True)
+CORS(app)
 
 @app.route('/')
 def serve_index():
