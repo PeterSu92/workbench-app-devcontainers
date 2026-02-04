@@ -57,6 +57,19 @@ For a simple web app (Flask, FastAPI, etc.), follow the `vscode` or `r-analysis`
 
 The `workbench-jupyter` base image is only needed if you actually want JupyterLab. Using it for non-Jupyter apps adds unnecessary complexity (Jupyter config conflicts, supervisor for multiple processes, etc.).
 
+## Known Issues
+
+### Google Cloud CLI feature fails on newer Debian
+The `ghcr.io/dhoeric/features/google-cloud-cli` feature uses deprecated `apt-key` which doesn't exist in Debian 13+ (e.g., `python:3.11-slim` based on bookworm/trixie). Error: `apt-key: command not found`.
+
+**Workarounds:**
+1. Remove the feature from `.devcontainer.json` if gcloud isn't needed
+2. Install gcloud directly in Dockerfile using the modern approach (no apt-key)
+3. Use a base image that already has gcloud (like workbench-jupyter)
+
+### Devcontainer features may conflict with slim images
+Features like `workbench-tools` expect certain system packages. When using minimal base images like `python:3.11-slim`, some features may fail. Either install dependencies in your Dockerfile first, or skip features that aren't essential.
+
 ## Workbench-Specific Requirements
 
 All apps must follow these conventions:

@@ -19,12 +19,6 @@
     "${templateOption:login}"
   ],
   "features": {
-    "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
-    "./.devcontainer/features/workbench-tools": {
-      "cloud": "${templateOption:cloud}",
-      "username": "appuser",
-      "userHomeDir": "/home/appuser"
-    }
   },
   "remoteUser": "root",
   "customizations": {
