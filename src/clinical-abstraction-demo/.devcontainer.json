@@ -1,49 +1,36 @@
 {
   "name": "Clinical Abstraction Demo",
-  "dockerComposeFile": ["docker-compose.yaml", "../jupyter-common/jupyter-common-compose.yaml"],
+  "dockerComposeFile": "docker-compose.yaml",
   "service": "app",
-  "runServices": ["app"],
   "shutdownAction": "none",
   "workspaceFolder": "/workspace",
   "postCreateCommand": [
     "./startupscript/post-startup.sh",
-    "jupyter",
-    "/home/jupyter",
+    "appuser",
+    "/home/appuser",
     "${templateOption:cloud}",
     "${templateOption:login}"
   ],
   "postStartCommand": [
     "./startupscript/remount-on-restart.sh",
-    "jupyter",
-    "/home/jupyter",
+    "appuser",
+    "/home/appuser",
     "${templateOption:cloud}",
     "${templateOption:login}"
   ],
   "features": {
+    "ghcr.io/dhoeric/features/google-cloud-cli:1": {},
     "./.devcontainer/features/workbench-tools": {
       "cloud": "${templateOption:cloud}",
-      "username": "jupyter",
-      "userHomeDir": "/home/jupyter"
-    },
-    "./.devcontainer/features/postgres-client": {
-      "version": "16"
+      "username": "appuser",
+      "userHomeDir": "/home/appuser"
     }
   },
   "remoteUser": "root",
   "customizations": {
     "workbench": {
       "opens": {
-        "extensions": [
-          ".ipynb",
-          ".py",
-          ".html",
-          ".md",
-          ".txt",
-          ".json",
-          ".csv"
-        ],
-        "fileUrlSuffix": "/lab/tree/{path}",
-        "folderUrlSuffix": "/lab/tree/{path}"
+        "extensions": [".html", ".txt", ".json", ".csv", ".py"]
       }
     }
   }

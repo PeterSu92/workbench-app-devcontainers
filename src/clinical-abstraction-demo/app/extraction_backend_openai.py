@@ -35,7 +35,10 @@ except ImportError:
             return func
         return decorator
 
-app = Flask(__name__)
+# Serve static files from the same directory as this script
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+app = Flask(__name__, static_folder=SCRIPT_DIR, static_url_path='/static')
+
 # Enable CORS with specific configuration for Workbench
 CORS(app,
      origins=["*"],
@@ -43,6 +46,11 @@ CORS(app,
      expose_headers=["Content-Type"],
      supports_credentials=True,
      send_wildcard=True)
+
+@app.route('/')
+def serve_index():
+    """Serve the main web UI."""
+    return app.send_static_file('index.html')
 
 # Configure logging
 logging.basicConfig(
@@ -771,17 +779,11 @@ if __name__ == '__main__':
         print("⚠ OPENAI_API_KEY not found. API key must be provided in requests.")
 
     print("\n" + "="*60)
-    print("Clinical Abstraction Backend - OpenAI Version")
+    print("Clinical Abstraction Demo")
     print("="*60)
-    print("Server: http://localhost:5000")
-    print("Health: http://localhost:5000/health")
-    print("\nEndpoints:")
-    print("  POST /extract - Extract variables from clinical note")
-    print("  POST /load-directory - Load .txt files from directory")
-    print("\nSupported models:")
-    print("  - gpt-4o (recommended, best quality)")
-    print("  - gpt-4o-mini (faster, cheaper)")
-    print("  - gpt-4-turbo")
+    print("Web UI:  http://localhost:8000/")
+    print("Health:  http://localhost:8000/health")
+    print("API:     http://localhost:8000/extract")
     print("="*60 + "\n")
 
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=False, threaded=True)

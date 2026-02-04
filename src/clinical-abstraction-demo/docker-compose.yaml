@@ -1,23 +1,14 @@
-include:
-  - ../jupyter-common/jupyter-common-compose.yaml
 services:
   app:
     container_name: "application-server"
-    # Build from Dockerfile (for testing/development)
-    # After testing, push to GAR and replace with:
-    # image: "us-central1-docker.pkg.dev/PROJECT/REPO/NAME:TAG"
     build:
       context: ../..
       dockerfile: src/clinical-abstraction-demo/Dockerfile
-      additional_contexts:
-        jupyter-extension-builder: service:jupyter-common-extension-builder
-    user: "jupyter"
     restart: always
     volumes:
       - .:/workspace:cached
+      - work:/home/appuser:cached
     ports:
-      - "8888:8888"
-      - "5000:5000"
       - "8000:8000"
     networks:
       - app-network
@@ -30,3 +21,5 @@ services:
 networks:
   app-network:
     external: true
+volumes:
+  work:
