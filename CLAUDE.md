@@ -63,14 +63,44 @@ Simplified Flask app deployment. Key files:
 - `src/clinical-abstraction-demo/Dockerfile` - Simple python:3.11-slim, single Flask process
 - `src/clinical-abstraction-demo/app/extraction_backend_openai.py` - Serves UI + API on port 8000
 
-**Status:** Removed failing gcloud feature. Ready to test deploy.
+**Status:** Fixed CORS error. Ready to test deploy.
 
 **To test:** Deploy in Workbench UI with:
 - Repository: `git@github.com:verily-src/workbench-app-devcontainers.git`
 - Branch: `yp_ac_clin`
 - Folder: `src/clinical-abstraction-demo`
 
-**If it fails:** Check logs on VM at `/home/<user>/.workbench/post-startup-output.txt` or `docker logs application-server`.
+**If it fails:** Check logs on VM: `docker logs application-server`
+
+## Playground Template Pattern (public repo)
+
+Location: `~/repos/public-workbench-app-devcontainers/workbench-app-devcontainers/src/playground/`
+
+This is a **clean, working pattern** for Workbench custom apps:
+
+**Architecture:**
+- `caddy:2.11-alpine` as main `application-server` on port 8080 (reverse proxy)
+- Separate service containers on internal networks
+- Postgres for state (optional)
+- No devcontainer features (avoids apt-key and other issues)
+
+**Key .devcontainer.json pattern (minimal):**
+```json
+{
+  "name": "App Name",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "app",
+  "shutdownAction": "none",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "root"
+}
+```
+
+**To port clinical-abstraction-demo to this pattern:**
+1. Use Caddy or direct Flask as `application-server` on port 8080
+2. Remove all devcontainer features from .devcontainer.json
+3. Remove postCreateCommand/postStartCommand (they use startup scripts that may fail)
+4. Self-contained Dockerfile with all dependencies
 
 ## Known Issues
 
