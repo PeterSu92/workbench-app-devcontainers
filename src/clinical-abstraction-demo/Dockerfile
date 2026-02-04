@@ -21,9 +21,24 @@ COPY src/clinical-abstraction-demo/app/ /home/jupyter/clinical-abstraction-demo/
 RUN pip install --no-cache-dir --ignore-installed blinker && \
     pip install --no-cache-dir -r /home/jupyter/clinical-abstraction-demo/requirements.txt
 
-# Create supervisor configuration to run both Flask and HTTP servers
-RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf && \
-    echo 'nodaemon=false' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+# Create supervisor configuration for all services
+# nodaemon=true keeps supervisor in foreground as PID 1
+# Jupyter is managed by supervisor to preserve proper startup
+RUN sudo mkdir -p /var/log/supervisor && \
+    echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'nodaemon=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'logfile=/var/log/supervisor/supervisord.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'pidfile=/var/run/supervisord.pid' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo '' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo '[program:jupyter]' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'command=/home/jupyter/.local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --no-browser' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'directory=/home/jupyter' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'user=jupyter' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'autostart=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'autorestart=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'priority=10' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'stdout_logfile=/var/log/supervisor/jupyter.out.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'stderr_logfile=/var/log/supervisor/jupyter.err.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo '' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo '[program:flask-backend]' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'command=python extraction_backend_openai.py' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
@@ -31,6 +46,7 @@ RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf &&
     echo 'user=jupyter' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'autostart=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'autorestart=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'priority=20' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'stderr_logfile=/var/log/supervisor/flask-backend.err.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'stdout_logfile=/var/log/supervisor/flask-backend.out.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo '' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
@@ -40,21 +56,12 @@ RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf &&
     echo 'user=jupyter' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'autostart=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'autorestart=true' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
+    echo 'priority=20' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'stderr_logfile=/var/log/supervisor/http-server.err.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf && \
     echo 'stdout_logfile=/var/log/supervisor/http-server.out.log' | sudo tee -a /etc/supervisor/conf.d/clinical-demo.conf
 
 # Expose ports (Flask backend on 5000, HTTP server on 8000, JupyterLab on 8888)
 EXPOSE 5000 8000 8888
 
-# Create startup wrapper that runs supervisor then Jupyter
-RUN echo '#!/bin/bash' | sudo tee /usr/local/bin/start-all.sh && \
-    echo '# Start supervisor in background' | sudo tee -a /usr/local/bin/start-all.sh && \
-    echo 'sudo /usr/bin/supervisord &' | sudo tee -a /usr/local/bin/start-all.sh && \
-    echo '# Wait a moment for supervisor to start' | sudo tee -a /usr/local/bin/start-all.sh && \
-    echo 'sleep 2' | sudo tee -a /usr/local/bin/start-all.sh && \
-    echo '# Start Jupyter Lab as main process' | sudo tee -a /usr/local/bin/start-all.sh && \
-    echo 'exec /home/jupyter/.local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root' | sudo tee -a /usr/local/bin/start-all.sh && \
-    sudo chmod +x /usr/local/bin/start-all.sh
-
-# Override CMD to use our startup script
-CMD ["/usr/local/bin/start-all.sh"]
+# Run supervisor as the main process (nodaemon=true keeps it in foreground)
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/supervisord.conf"]
