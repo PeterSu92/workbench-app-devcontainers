@@ -46,11 +46,15 @@ RUN echo '[supervisord]' | sudo tee /etc/supervisor/conf.d/clinical-demo.conf &&
 # Expose ports (Flask backend on 5000, HTTP server on 8000, JupyterLab on 8888)
 EXPOSE 5000 8000 8888
 
-# Create a startup script that launches supervisor before Jupyter
-RUN echo '#!/bin/bash' | sudo tee /usr/local/bin/start-clinical-demo.sh && \
-    echo 'sudo /usr/bin/supervisord' | sudo tee -a /usr/local/bin/start-clinical-demo.sh && \
-    echo 'exec "$@"' | sudo tee -a /usr/local/bin/start-clinical-demo.sh && \
-    sudo chmod +x /usr/local/bin/start-clinical-demo.sh
+# Create startup wrapper that runs supervisor then Jupyter
+RUN echo '#!/bin/bash' | sudo tee /usr/local/bin/start-all.sh && \
+    echo '# Start supervisor in background' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo 'sudo /usr/bin/supervisord &' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo '# Wait a moment for supervisor to start' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo 'sleep 2' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo '# Start Jupyter Lab as main process' | sudo tee -a /usr/local/bin/start-all.sh && \
+    echo 'exec /home/jupyter/.local/bin/jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root' | sudo tee -a /usr/local/bin/start-all.sh && \
+    sudo chmod +x /usr/local/bin/start-all.sh
 
-# Use the startup script as entrypoint wrapper (preserves base image CMD)
-ENTRYPOINT ["/usr/local/bin/start-clinical-demo.sh"]
+# Override CMD to use our startup script
+CMD ["/usr/local/bin/start-all.sh"]
