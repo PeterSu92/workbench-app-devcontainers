@@ -5,21 +5,11 @@ services:
       context: ../..
       dockerfile: src/clinical-abstraction-demo/Dockerfile
     restart: always
-    volumes:
-      - .:/workspace:cached
-      - work:/home/appuser:cached
     ports:
-      - "8000:8000"
+      - "8080:8080"
     networks:
       - app-network
-    cap_add:
-      - SYS_ADMIN
-    devices:
-      - /dev/fuse
-    security_opt:
-      - apparmor:unconfined
+
 networks:
   app-network:
     external: true
-volumes:
-  work:

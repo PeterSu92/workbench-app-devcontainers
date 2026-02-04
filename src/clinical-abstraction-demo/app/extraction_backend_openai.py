@@ -776,9 +776,9 @@ if __name__ == '__main__':
     print("\n" + "="*60)
     print("Clinical Abstraction Demo")
     print("="*60)
-    print("Web UI:  http://localhost:8000/")
-    print("Health:  http://localhost:8000/health")
-    print("API:     http://localhost:8000/extract")
+    print("Web UI:  http://localhost:8080/")
+    print("Health:  http://localhost:8080/health")
+    print("API:     http://localhost:8080/extract")
     print("="*60 + "\n")
 
-    app.run(host='0.0.0.0', port=8000, debug=False, threaded=True)
+    app.run(host='0.0.0.0', port=8080, debug=False, threaded=True)

@@ -4,28 +4,5 @@
   "service": "app",
   "shutdownAction": "none",
   "workspaceFolder": "/workspace",
-  "postCreateCommand": [
-    "./startupscript/post-startup.sh",
-    "appuser",
-    "/home/appuser",
-    "${templateOption:cloud}",
-    "${templateOption:login}"
-  ],
-  "postStartCommand": [
-    "./startupscript/remount-on-restart.sh",
-    "appuser",
-    "/home/appuser",
-    "${templateOption:cloud}",
-    "${templateOption:login}"
-  ],
-  "features": {
-  },
-  "remoteUser": "root",
-  "customizations": {
-    "workbench": {
-      "opens": {
-        "extensions": [".html", ".txt", ".json", ".csv", ".py"]
-      }
-    }
-  }
+  "remoteUser": "root"
 }
