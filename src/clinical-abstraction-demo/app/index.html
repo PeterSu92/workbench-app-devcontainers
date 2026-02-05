@@ -6255,10 +6255,8 @@ Emergency Medicine`,
         });
         
         // ============== AI Extraction Integration ==============
-        // Auto-detect backend URL (localhost vs Workbench proxy)
-        const BACKEND_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-            ? 'http://localhost:5000'
-            : window.location.origin + '/proxy/5000';
+        // Backend is served from the same origin (Flask serves both UI and API)
+        const BACKEND_URL = '';
 
         function getActiveProtocolRules(variableNames) {
             const rules = [];
